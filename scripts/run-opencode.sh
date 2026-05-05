@@ -83,8 +83,6 @@ fi
 # 5. Run New Container
 # ---------------------------------------------------------
 echo "🚀 Starting OpenCode. Running new container..."
-echo "$CONTAINER_HOME_DIR/.local/share/opencode/auth.json"
-echo 
 
 docker run -dit --platform linux/arm64 --name $CONTAINER_NAME \
     -h $CONTAINER_NAME \
