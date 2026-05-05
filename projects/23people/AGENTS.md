@@ -18,9 +18,9 @@ Esta carpeta contiene dos subcarpetas principales: `consolidated` y `tasks`.
 
 ## Guidelines for AI Assistants
 
-1. Nunca puedes escribir en la carpeta 'context' a menos que se te de permiso explícito por el usuario. Esta carpeta es para información validada y estable, y solo debe ser modificada con autorización.
-2. Puedes escribir en la carpeta 'tasks' para crear o modificar contenido relacionado con tareas específicas. Crea una nueva carpeta dentro de 'tasks' para cada tarea y guarda allí toda la información relevante. El nombre debe ser del estilo: 'YYYYMMDD-hhmm-[slug]', por ejemplo, '20240615-1545-create-claude-guidelines'.
+1. Nunca puedes escribir en la carpeta `consolidated` a menos que se te de permiso explícito por el usuario. Esta carpeta es para información validada y estable, y solo debe ser modificada con autorización.
+2. Puedes escribir en la carpeta `tasks` para crear o modificar contenido relacionado con tareas específicas. Crea una nueva carpeta dentro de `tasks` para cada tarea y guarda allí toda la información relevante. El nombre debe ser del estilo: 'YYYYMMDD-hhmm-[slug]', por ejemplo, '20240615-1545-create-claude-guidelines'.
 
 ## Memory
 
-Considerar el archivo de memoria `projects/23people/consolidated/.memory/MEMORY.md` al iniciar una conversación.
+Considerar el archivo de memoria `consolidated/.memory/MEMORY.md` al iniciar una conversación.
