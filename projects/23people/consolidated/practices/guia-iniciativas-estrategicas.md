@@ -15,7 +15,7 @@ Meta de Largo Plazo
     └── Objetivo Anual
             └── Iniciativa Estratégica
                     └── Líneas de Acción
-                            └── Actividades
+                            └── Actividades Estratégicas
 ```
 
 ### Descripción de cada nivel
@@ -32,7 +32,7 @@ Programa de trabajo acotado que contribuye directamente a un Key Result del Obje
 **Líneas de Acción**
 Agrupaciones lógicas de actividades relacionadas dentro de una Iniciativa Estratégica. No son unidades de gestión independientes — funcionan como etiquetas de agrupación que organizan las actividades y hacen explícita su conexión con los Key Results de la iniciativa. En el tablero Kanban se representan como etiquetas (tags) en las tarjetas de actividad.
 
-**Actividades**
+**Actividades Estratégicas**
 Las unidades de trabajo concretas y ejecutables. Cada actividad pertenece a una Línea de Acción, tiene un dueño, una fecha límite y contribuye a uno o más Key Results de la iniciativa. Su estado se gestiona en el tablero Kanban, no en el documento.
 
 ---
@@ -93,6 +93,53 @@ Antes de presentar al HC, verificar:
 - Cada KR tiene línea base, meta y fecha de medición.
 - Ningún KR queda sin al menos una Línea de Acción que lo trabaje.
 - El Objetivo de la iniciativa es distinto al KR anual al que contribuye, pero claramente relacionado.
+
+Déjame leer el documento una vez más para asegurarme de que el estilo, el tono y la numeración encajen bien antes de redactar.Aquí está la sección redactada, lista para insertarse en la guía. La ubiqué como una subsección dentro de la Sección 3, justo después del "Criterio de calidad del OKR", porque es el momento natural en que alguien está definiendo las actividades por primera vez.
+
+---
+
+### Redacción de Actividades Estratégicas
+
+Cada actividad tiene dos capas que deben redactarse por separado:
+
+**La capa descriptiva** define qué hay que hacer, con qué propósito y en qué contexto. Es la información que aparece en la tabla de actividades del documento: nombre, dueño, fecha límite, Línea de Acción y contribución a KRs.
+
+**La capa de verificación** define cuándo la actividad está terminada. Se expresa como un **Criterio de Listo**: una lista de condiciones binarias que, al cumplirse todas, confirman sin ambigüedad que la actividad puede moverse a la columna Listo del tablero Kanban.
+
+El Criterio de Listo no reemplaza la descripción — la complementa. Vive en el cuerpo de la tarjeta Kanban, no en el documento de la iniciativa.
+
+#### Por qué importa
+
+Durante la revisión quincenal del High Council, una de las preguntas centrales es: *¿qué falta para pasar a la siguiente etapa?* Una actividad sin criterio de listo explícito hace que esta pregunta dependa de la interpretación del dueño en el momento. Un criterio bien redactado permite responder en segundos: "tenemos 3 de 5 ítems completados; faltan los dos últimos que dependen de la reunión con Giovanni esta semana."
+
+#### Reglas para redactar el Criterio de Listo
+
+Cada ítem del criterio debe cumplir las siguientes tres condiciones:
+
+1. **Binario** — o está cumplido o no está cumplido. No puede existir un estado intermedio ni admitir porcentajes. *"Tabla entregada al HC"* es binario; *"tabla casi lista"* no lo es.
+
+2. **Verificable por cualquiera** — cualquier miembro del HC debe poder confirmar el ítem sin necesitar explicación del dueño. Si requiere interpretación, hay que descomponerlo o hacerlo más específico.
+
+3. **Orientado al resultado, no a la acción** — el ítem describe qué existe o qué ocurrió, no qué se hizo. *"Modelo financiero revisado y validado por Giovanni"* describe un resultado; *"reunirse con Giovanni"* describe una acción que puede ocurrir sin producir el resultado esperado.
+
+#### Ejemplo
+
+*Actividad: Punto crítico financiero — tabla de escenarios de absorción*
+
+| Campo | Contenido |
+|-------|-----------|
+| Descripción | Modelar con Giovanni (KeepGoods) los umbrales financieros críticos ante una reducción progresiva de ingresos por absorción de profesionales Equifax |
+| Dueño | Juan Carlos Soto |
+| Fecha límite | Mayo 2026 |
+
+**Criterio de Listo:**
+
+- [ ] Anita entregó los datos de absorción: número de profesionales en riesgo y timing estimado
+- [ ] Determinado el ingreso mensual mínimo para cubrir costos fijos, con desglose
+- [ ] Calculados al menos 3 escenarios de punto de quiebre según número de profesionales absorbidos (optimista, base, pesimista)
+- [ ] Calculado el runway disponible en el peor caso
+- [ ] Tabla revisada y validada por Giovanni (KeepGoods)
+- [ ] Tabla presentada al High Council
 
 ---
 

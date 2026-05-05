@@ -15,18 +15,17 @@
 
 ### Objetivo
 
-Reconstituir la base de clientes de 23people para que la empresa no dependa de un único cliente como fuente de ingresos, convirtiendo la amenaza de absorción de Equifax en el punto de inflexión que activa una capacidad comercial propia.
+Convertir la amenaza de absorción de Equifax en el punto de inflexión que activa una capacidad comercial propia, diversificando la base de ingresos de 23people para reducir la dependencia crítica de un único cliente, aumentar las ventas y garantizar la viabilidad del negocio.
 
 ### Resultados Clave
 
-*El criterio de "conversación avanzada" está definido como: al menos una oportunidad calificada en Etapa 4 (Seguimiento) del flujo consultivo — es decir, propuesta ya presentada con tomadores de decisión, activa en proceso de aprobación interna del cliente.*
+*Definiciones del flujo consultivo: Etapa 3 (Presentar Propuesta) = propuesta presentada formalmente a tomadores de decisión. Etapa 4 (Seguimiento) = propuesta activa en proceso de aprobación interna del cliente.*
 
 | # | Resultado Clave | Línea Base | Meta | Fecha de Medición |
 |---|----------------|-----------|------|-------------------|
-| RC1 | Oportunidades calificadas en Etapa 4 (Seguimiento) del flujo consultivo con clientes nuevos | 0 | 1 | Julio 2026 |
-| RC2 | Punto crítico financiero determinado: tabla de escenarios de absorción entregada al High Council | Sin datos | Entregado | Mayo 2026 |
-| RC3 | Inteligencia competitiva completada: ICP definido, propuesta de valor diferenciada e instrucciones operativas para equipo Iarvis | Sin datos | Entregado | Junio 2026 |
-| RC4 | Arco+ operativo: landing page funcional, demo interactiva y propuesta de valor clara para el mercado legal | En desarrollo | Live | Julio 2026 |
+| KR1 | Oportunidades calificadas en Etapa 4 (Seguimiento) del flujo consultivo — outsourcing TI (nuevas divisiones Equifax + clientes nuevos), con al menos 1 oportunidad fuera de Equifax | 0 | 3 | Julio 2026 |
+| KR2 | Punto crítico financiero determinado: tabla de escenarios de absorción entregada al High Council | Sin datos | Entregado | Mayo 2026 |
+| KR3 | Oportunidad calificada en Etapa 3 (Presentar Propuesta) del flujo consultivo — frente de nuevas aproximaciones (integración llave en mano o producto como Arco+) — con cliente nuevo | 0 | 1 | Julio 2026 |
 
 ---
 
@@ -71,24 +70,24 @@ Esta iniciativa es una respuesta de urgencia calibrada. El principio rector es *
 
 | Línea de Acción | Contribuye a |
 |----------------|-------------|
-| LA1 — Outsourcing Tech Talent Services | RC1, RC3 |
-| LA2 — Integraciones llave en mano | RC1 |
-| LA3 — CognitionBase / Arco+ | RC4 |
-| LA4 — Fortalecimiento estructural | RC2 |
+| LA1 — Outsourcing Tech Talent Services | KR1 |
+| LA2 — Integraciones llave en mano | KR3 |
+| LA3 — Producto de Innovacion via CognitionBase / Arco+ | KR3 |
+| LA4 — Fortalecimiento estructural | KR2 |
 
 ### Actividades
 
 | # | Actividad | Línea de Acción | Dueño | Fecha límite | Contribuye a | Dependencias |
 |---|-----------|----------------|-------|-------------|-------------|--------------|
-| 1 | Seguimiento absorción Equifax Aconcagua — monitorear tasa de absorción en tiempo real | LA4 | Anita Villegas | Continua | RC2 | — |
-| 2 | Punto crítico financiero — tabla de escenarios por número de profesionales absorbidos (con Giovanni, KeepGoods) | LA4 | Juan Carlos Soto | Mayo 2026 | RC2 | Se alimenta de datos de Act. 1 |
-| 3 | Nuevas oportunidades en divisiones Equifax — identificar y prospectar dentro del cliente actual | LA1 | Anita Villegas | Continua | RC1 | — |
-| 4 | Exploración de integraciones llave en mano — levantar oportunidades usando ACHS y FALP+Equifax como credencial | LA2 | Juan Carlos Soto | Julio 2026 | RC1 | — |
-| 5 | Inteligencia competitiva outsourcing — investigar cómo entran competidores a clientes grandes, definir ICP y propuesta de valor diferenciada; incluye definición del equipo comercial operativo de Iarvis e instrucciones de prospección | LA1 | Anita Villegas (gestión equipo Iarvis) | Junio 2026 | RC3 | — |
-| 6 | ICP + Propuesta de Valor Arco+ — definir el perfil de cliente ideal y el mensaje central para el mercado legal | LA3 | Manuel Reyes | Junio 2026 | RC4 | Bloqueante para Act. 7 |
-| 7 | Landing Page + Demo Arco+ — desarrollar la página funcional con demo interactiva | LA3 | Marcelo Ampuero | Julio 2026 | RC4 | Bloqueada por Act. 6 |
-| 8 | Formalización flujo JustDemo — documentar la metodología usando Arco+ como caso de estudio | LA3 | Manuel Reyes | Julio 2026 | RC4 | Arco+ como caso de estudio |
-| 9 | Exploración alianza pyme de reclutamiento — retomar conversación con contacto identificado de Manuel para evaluar modelo de colaboración | LA1 | Manuel Reyes | Junio 2026 | RC1 | — |
+| 1 | Seguimiento absorción Equifax Aconcagua — monitorear tasa de absorción en tiempo real | LA4 | Anita Villegas | Continua | KR2 | — |
+| 2 | Punto crítico financiero — tabla de escenarios por número de profesionales absorbidos (con Giovanni, KeepGoods) | LA4 | Juan Carlos Soto | Mayo 2026 | KR2 | Se alimenta de datos de Act. 1 |
+| 3 | Nuevas oportunidades en divisiones Equifax — identificar y prospectar dentro del cliente actual | LA1 | Anita Villegas | Continua | KR1 | — |
+| 4 | Exploración de integraciones llave en mano — levantar oportunidades usando ACHS y FALP+Equifax como credencial | LA2 | Juan Carlos Soto | Julio 2026 | KR3 | — |
+| 5 | Inteligencia competitiva outsourcing — investigar cómo entran competidores a clientes grandes, definir ICP v2 y propuesta de valor diferenciada; incluye definición del equipo comercial operativo de Iarvis e instrucciones de prospección | LA1 | Anita Villegas (gestión equipo Iarvis) | Junio 2026 | KR1 | Bloqueante para prospección formal |
+| 6 | ICP + Propuesta de Valor Arco+ — definir el perfil de cliente ideal y el mensaje central para el mercado legal | LA3 | Manuel Reyes | Mayo 2026 | KR3 | Bloqueante para Act. 7 |
+| 7 | Landing Page + Demo Arco+ — desarrollar la página funcional con demo interactiva | LA3 | Marcelo Ampuero | Mayo 2026 | KR3 | Bloqueada por Act. 6 |
+| 8 | Formalización flujo JustDemo — documentar la metodología usando Arco+ como caso de estudio | LA3 | Manuel Reyes | Julio 2026 | KR3 | Arco+ como caso de estudio |
+| 9 | Exploración alianza pyme de reclutamiento — retomar conversación con contacto identificado de Manuel para evaluar modelo de colaboración | LA1 | Manuel Reyes | Junio 2026 | KR1 | — |
 | 10 | Estrategia de comunicación interna IE-2026-04 — definir cómo y cuándo comunicar la iniciativa al equipo más amplio de 23people | LA4 | Manuel Reyes | Mayo 2026 | — | — |
 | 11 | Formalización protocolo 23people → CognitionBase — definir qué tipos de solicitudes se canalizan vía Kanbanize y comunicarlo al High Council | LA4 | Manuel Reyes / Marcelo Ampuero | Mayo 2026 | — | — |
 
@@ -98,7 +97,7 @@ Esta iniciativa es una respuesta de urgencia calibrada. El principio rector es *
 
 | Dependencia | Tipo | Iniciativa o proyecto relacionado |
 |-------------|------|----------------------------------|
-| ICP definido (output de Act. 5) es requisito previo para la prospección formal de clientes nuevos | `Bloqueante` | LA1 — Outsourcing Tech Talent |
+| ICP v2 definido (output de Act. 5) es requisito previo para la prospección formal de clientes nuevos | `Bloqueante` | LA1 — Outsourcing Tech Talent |
 | Tabla de escenarios financieros (Act. 2) se alimenta de datos de seguimiento de absorción (Act. 1) | `Condicional` | LA4 — Fortalecimiento estructural |
 | Propuesta de valor Arco+ (Act. 6) debe estar definida antes de iniciar desarrollo de landing page (Act. 7) | `Bloqueante` | LA3 — CognitionBase / Arco+ |
 | Actividades de comunicación ISO 27001 (Trust Center, web, brochure, SEO) | `Condicional` | Iniciativa "Certificación ISO 27001" |
@@ -120,5 +119,5 @@ Esta iniciativa es una respuesta de urgencia calibrada. El principio rector es *
 | Riesgo | Probabilidad | Impacto | Mitigación |
 |--------|-------------|---------|------------|
 | Tasa de absorción de Equifax más rápida de lo estimado, reduciendo el runway antes de que se cierren oportunidades nuevas | Alta (90% de ocurrencia según estimación de Manuel) | Alto | Monitoreo continuo de Anita (Act. 1) + tabla de escenarios financieros (Act. 2) para actuar con urgencia calibrada |
-| Inteligencia competitiva y propuesta de valor diferenciada no se completan antes de que el equipo Iarvis salga a prospectar, repitiendo el error histórico de ir al mercado sin diferenciación | Media | Alto | ICP definido como bloqueante explícito de la prospección formal (dependencia Act. 5 → prospección) |
+| ICP v2 y propuesta de valor diferenciada no se completan antes de que el equipo Iarvis salga a prospectar, repitiendo el error histórico de ir al mercado sin diferenciación | Media | Alto | ICP v2 definido como bloqueante explícito de la prospección formal (dependencia Act. 5 → prospección) |
 | Alianza con pyme de reclutamiento no se concreta o resulta inviable, eliminando un canal de entrada a clientes grandes | Baja | Medio | Depende de un contacto personal identificado de Manuel — baja inversión requerida para exploración; el frente de outsourcing directo opera en paralelo como canal independiente |
