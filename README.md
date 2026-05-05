@@ -10,6 +10,47 @@ Each project has:
     - `consolidated/`: where all the final outputs are stored.
     - `tasks/` — write temp task files here. Name subfolders `YYYYMMDD-hhmm-[slug]/`.
 
+## Ejecutar OpenCode con Docker
+
+El repositorio incluye un `Dockerfile` y un script `scripts/run-opencode.sh` para correr OpenCode de forma aislada en un contenedor Docker.
+
+### Cómo funciona
+
+El script gestiona el ciclo de vida del contenedor automáticamente:
+
+1. Si el contenedor ya está corriendo, conecta directamente.
+2. Si el contenedor existe pero está detenido, lo elimina y recrea.
+3. Si la imagen no existe, la construye primero.
+4. Ejecuta `opencode .` dentro del directorio del proyecto montado.
+
+### Requisitos previos
+
+- **SSH key dedicada para Docker**: crear `~/.ssh/id_ed25519_docker-opencode` y registrar la clave pública en GitHub. El contenedor la monta como `~/.ssh/id_ed25519` para operaciones git.
+- **Auth de OpenCode**: el archivo `~/.local/share/opencode/auth.json` debe existir en el host (se monta en el contenedor).
+- **Auth de GitHub CLI**: el directorio `~/.config/gh` se monta para reutilizar el OAuth del host. Esto permite al contenedor hacer `gh pr create` sin necesitar `GH_TOKEN`.
+
+### Volúmenes montados
+
+El contenedor sincroniza las siguientes rutas con el host en tiempo real (no es un snapshot de build):
+
+| Host | Contenedor | Propósito |
+|------|-----------|-----------|
+| `$COWORK_DIR` | `/home/ubuntu/cowork` | Ediciones a archivos persisten en el host |
+| `$OPENCODE_CONFIG_DIR` | `/home/ubuntu/.config/opencode` | Skills y config de OpenCode |
+| `~/.local/share/opencode/auth.json` | `/home/ubuntu/.local/share/opencode/auth.json` | Sesión de OpenCode |
+| `~/.config/gh` | `/home/ubuntu/.config/gh` | OAuth de GitHub CLI |
+| `~/.ssh/id_ed25519_docker-opencode` | `/home/ubuntu/.ssh/id_ed25519` | Llave SSH para git |
+
+### Uso
+
+```bash
+# Primera vez (o para reconstruir la imagen):
+bash scripts/run-opencode.sh rebuild
+
+# Uso normal:
+bash scripts/run-opencode.sh
+```
+
 The same idea of workflow applies when working with Opencode.
 
 AI instructions are written in `AGENTS.md` and the `CLAUDE.md` files, which are located in the root of the repo and in each project folder, where we specify the rules and instructions for each project.

@@ -23,4 +23,4 @@ Esta carpeta contiene dos subcarpetas principales: `consolidated` y `tasks`.
 
 ## Memory
 
-Considerar el archivo de memoria `projects/cognitionbase/consolidated/.memory/MEMORY.md` al iniciar una conversación.
+Considerar el archivo de memoria `consolidated/.memory/MEMORY.md` al iniciar una conversación.
