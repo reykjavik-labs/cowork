@@ -11,8 +11,7 @@ This repo is a documentation hub for 3 company projects under `projects/`. Not a
 
 ## Project conventions
 
-- All projects are in `projects/`
-- There are 3 projects: `23people/`, `cognitionbase/`, `reykjavik/` — content is in Spanish
+- The current projects are determined by every subfolder in `projects/`.
 - Each project has:
     - `consolidated/` — **read-only**. Do not write without explicit user permission.
     - `tasks/` — write temp task files here. Name subfolders `YYYYMMDD-hhmm-[slug]/`.
