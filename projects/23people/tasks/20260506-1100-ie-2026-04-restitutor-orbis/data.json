@@ -1,0 +1,149 @@
+{
+	"title": "Restitutor Orbis",
+	"description": "Convertir la amenaza de absorción de Equifax en el punto de inflexión para diversificar la base de ingresos de 23people, reduciendo la dependencia crítica de un único cliente y garantizando la viabilidad del negocio.",
+	"metadata": {
+		"eleccion_estrategica": "Diversificar la base de ingresos de 23people para reducir la dependencia crítica de Equifax y garantizar la viabilidad del negocio",
+		"ano": "2026",
+		"estado": "Activa",
+		"responsable": "Director de Operaciones Globales",
+		"fecha_creacion": "2026-04-29",
+		"ultima_modificacion": "2026-05-06"
+	},
+	"objetivo": "Convertir la amenaza de absorción de Equifax en el punto de inflexión que activa una capacidad comercial propia, diversificando la base de ingresos de 23people para reducir la dependencia crítica de un único cliente, aumentar las ventas y garantizar la viabilidad del negocio.",
+	"contexto": "La relación de 23people con Equifax comenzó en diciembre de 2015 con un proyecto llave en mano exitoso. Ese éxito generó una demanda pasiva tan consistente que eliminó todo incentivo de diversificar. Cuando se intentó construir capacidad comercial formal (Business Developer Manager, 2021–2024), el responsable fue absorbido por la operación del mismo cliente. La trampa se autoalimentó durante casi una década.\n\nA marzo de 2026, Equifax representa el 97% de los ingresos de la empresa, con 63 profesionales activos y 2 clientes totales. La señal de alerta que activa esta iniciativa es concreta: Equifax ha manifestado la intención de absorber aproximadamente el 80% de los profesionales activos (≈ 50 personas) antes de septiembre 2026. Si esto ocurre, los costos de nómina superarían los márgenes disponibles y el modelo actual deja de ser viable.\n\nEsta iniciativa es una respuesta de urgencia calibrada. El principio rector es preferir aumentar las ventas por sobre disminuir los costos. La ventana está abierta ahora precisamente porque la amenaza de Equifax ha liberado capacidad operativa que antes era absorbida por esa misma relación.",
+	"alcance_incluye": [
+		"Expansión del servicio de outsourcing de Tech Talent en nuevas divisiones de Equifax y en clientes nuevos",
+		"Inteligencia competitiva y definición del perfil de cliente ideal (ICP) para Tech Talent Services",
+		"Desarrollo y validación de la línea de integraciones llave en mano como segundo frente comercial",
+		"Exploración de alianzas con pymes de reclutamiento generalista que complementen la capacidad técnica de 23people",
+		"Desarrollo de Arco+ (landing page + demo) como primer caso de estudio del servicio JustDemo de CognitionBase",
+		"Formalización del flujo JustDemo como metodología replicable",
+		"Formalización del protocolo de solicitudes entre 23people y CognitionBase (vía Kanbanize)",
+		"Estrategia de comunicación interna de la iniciativa al equipo de 23people"
+	],
+	"alcance_no_incluye": [
+		"Actividades de comunicación de la certificación ISO 27001 (Trust Center, web, brochure, SEO) — trasladadas a la iniciativa \"Certificación ISO 27001\"",
+		"Decisiones de reducción de costos o reestructuración de nómina",
+		"Gestión de la relación operativa con Equifax Aconcagua (cubierta por operaciones)"
+	],
+	"kpis": [
+		{
+			"nombre": "KR1 — Oportunidades en Etapa 4 (outsourcing TI, nuevas divisiones Equifax + clientes nuevos, al menos 1 fuera de Equifax)",
+			"linea_base": "0",
+			"meta": "3",
+			"fecha_medicion": "Julio 2026"
+		},
+		{
+			"nombre": "KR2 — Punto crítico financiero: tabla de escenarios de absorción entregada al High Council",
+			"linea_base": "Sin datos",
+			"meta": "Entregado",
+			"fecha_medicion": "Mayo 2026"
+		},
+		{
+			"nombre": "KR3 — Oportunidad en Etapa 3 (integración llave en mano o producto como Arco+) con cliente nuevo",
+			"linea_base": "0",
+			"meta": "1",
+			"fecha_medicion": "Julio 2026"
+		}
+	],
+	"hitos": [
+		{
+			"nombre": "Act. 1 — Seguimiento absorción Equifax Aconcagua",
+			"descripcion": "Monitorear tasa de absorción en tiempo real. Dueño: Anita Villegas. LA4 — Fortalecimiento estructural. Contribuye a: KR2",
+			"fecha": "Continua"
+		},
+		{
+			"nombre": "Act. 2 — Punto crítico financiero",
+			"descripcion": "Tabla de escenarios por número de profesionales absorbidos (con Giovanni, KeepGoods). Dueño: Juan Carlos Soto. LA4. Contribuye a: KR2. Depende de: Act. 1",
+			"fecha": "Mayo 2026"
+		},
+		{
+			"nombre": "Act. 3 — Nuevas oportunidades en divisiones Equifax",
+			"descripcion": "Identificar y prospectar dentro del cliente actual. Dueño: Anita Villegas. LA1. Contribuye a: KR1",
+			"fecha": "Continua"
+		},
+		{
+			"nombre": "Act. 4 — Exploración de integraciones llave en mano",
+			"descripcion": "Levantar oportunidades usando ACHS y FALP+Equifax como credencial. Dueño: Juan Carlos Soto. LA2. Contribuye a: KR3",
+			"fecha": "Julio 2026"
+		},
+		{
+			"nombre": "Act. 5 — Inteligencia competitiva outsourcing + ICP v2",
+			"descripcion": "Investigar competidores, definir ICP v2, propuesta de valor, equipo comercial Iarvis e instrucciones de prospección. Dueño: Anita Villegas. LA1. Contribuye a: KR1. Bloqueante para prospección formal",
+			"fecha": "Junio 2026"
+		},
+		{
+			"nombre": "Act. 6 — ICP + Propuesta de Valor Arco+",
+			"descripcion": "Definir perfil de cliente ideal y mensaje central para mercado legal. Dueño: Manuel Reyes. LA3. Contribuye a: KR3. Bloqueante para Act. 7",
+			"fecha": "Mayo 2026"
+		},
+		{
+			"nombre": "Act. 7 — Landing Page + Demo Arco+",
+			"descripcion": "Desarrollar página funcional con demo interactiva. Dueño: Marcelo Ampuero. LA3. Contribuye a: KR3. Bloqueada por Act. 6",
+			"fecha": "Mayo 2026"
+		},
+		{
+			"nombre": "Act. 8 — Formalización flujo JustDemo",
+			"descripcion": "Documentar metodología usando Arco+ como caso de estudio. Dueño: Manuel Reyes. LA3. Contribuye a: KR3",
+			"fecha": "Julio 2026"
+		},
+		{
+			"nombre": "Act. 9 — Exploración alianza pyme de reclutamiento",
+			"descripcion": "Retomar conversación con contacto identificado para evaluar modelo de colaboración. Dueño: Manuel Reyes. LA1. Contribuye a: KR1",
+			"fecha": "Junio 2026"
+		},
+		{
+			"nombre": "Act. 10 — Estrategia de comunicación interna",
+			"descripcion": "Definir cómo y cuándo comunicar la iniciativa al equipo de 23people. Dueño: Manuel Reyes. LA4",
+			"fecha": "Mayo 2026"
+		},
+		{
+			"nombre": "Act. 11 — Formalización protocolo 23people → CognitionBase",
+			"descripcion": "Definir tipos de solicitudes que se canalizan vía Kanbanize y comunicarlo al High Council. Dueños: Manuel Reyes / Marcelo Ampuero. LA4",
+			"fecha": "Mayo 2026"
+		}
+	],
+	"dependencias": [
+		{
+			"descripcion": "ICP v2 definido (Act. 5) es requisito previo para la prospección formal de clientes nuevos",
+			"tipo": "Bloqueante",
+			"relacionado": "LA1 — Outsourcing Tech Talent"
+		},
+		{
+			"descripcion": "Tabla de escenarios financieros (Act. 2) se alimenta de datos de seguimiento de absorción (Act. 1)",
+			"tipo": "Condicional",
+			"relacionado": "LA4 — Fortalecimiento estructural"
+		},
+		{
+			"descripcion": "Propuesta de valor Arco+ (Act. 6) debe estar definida antes de iniciar desarrollo de landing page (Act. 7)",
+			"tipo": "Bloqueante",
+			"relacionado": "LA3 — CognitionBase / Arco+"
+		},
+		{
+			"descripcion": "Actividades de comunicación ISO 27001 (Trust Center, web, brochure, SEO)",
+			"tipo": "Condicional",
+			"relacionado": "Iniciativa \"Certificación ISO 27001\""
+		}
+	],
+	"recursos": "**Equipo:** High Council (Manuel Reyes, Marcelo Ampuero, Juan Carlos Soto, Anita Villegas) — Equipo Iarvis Tribe (perfiles entry con rol comercial, bajo gestión de Anita) — Giovanni, KeepGoods (asesor financiero externo) — MCI Consultores (asesor externo del proceso de ventas)\n**Presupuesto estimado:** Los costos se absorben operacionalmente. No hay presupuesto incremental asignado en este momento.\n**Herramientas o capacidades requeridas:** Flujo de ventas consultivas 5 etapas (definido con MCI Consultores) — Kanbanize (canal oficial de solicitudes 23people → CognitionBase) — ClickUp (gestión interna 23people) — Casos credencial de integración: ACHS Telemedicina + FALP+Equifax (uso libre, sin restricciones de confidencialidad)",
+	"riesgos": [
+		{
+			"riesgo": "Tasa de absorción de Equifax más rápida de lo estimado, reduciendo el runway antes de que se cierren oportunidades nuevas",
+			"probabilidad": "Alta (90%)",
+			"impacto": "Alto",
+			"mitigacion": "Monitoreo continuo de Anita (Act. 1) + tabla de escenarios financieros (Act. 2) para actuar con urgencia calibrada"
+		},
+		{
+			"riesgo": "ICP v2 y propuesta de valor diferenciada no se completan antes de que el equipo Iarvis salga a prospectar",
+			"probabilidad": "Media",
+			"impacto": "Alto",
+			"mitigacion": "ICP v2 definido como bloqueante explícito de la prospección formal (dependencia Act. 5 → prospección)"
+		},
+		{
+			"riesgo": "Alianza con pyme de reclutamiento no se concreta o resulta inviable",
+			"probabilidad": "Baja",
+			"impacto": "Medio",
+			"mitigacion": "Depende de un contacto personal de Manuel — baja inversión para exploración; outsourcing directo opera en paralelo como canal independiente"
+		}
+	]
+}
