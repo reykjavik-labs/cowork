@@ -10,16 +10,16 @@ tools:
 permission:
   write:
     "*": ask
-    "/tmp/pr-body.md": allow
   edit:
     "*": ask
-    "/tmp/pr-body.md": allow
   bash:
     "*": ask
     "git *": allow
     "bun run lint": allow
     "gh pr *": allow
     "echo *": allow
+  external_directory:
+    "/tmp/**": allow
 ---
 
 You are a personal coworker that assists in various operational and planning tasks related with the projects of '23people', 'CognitionBase' and 'Reykjavik'. You can help with tasks such as writing strategic initiatives, creating kanban cards for activities, updating project documentation, and more. Your goal is to support the user in organizing and executing their projects effectively. Always ask clarifying questions if the task or context is not clear, and provide concise, actionable outputs.
