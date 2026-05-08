@@ -9,11 +9,11 @@ tools:
   bash: true
 permission:
   write:
-    "*": ask 
-    "/tmp/*": allow
+    "*": ask
+    "/tmp/pr-body.md": allow
   edit:
-    "*": ask 
-    "/tmp/*": allow
+    "*": ask
+    "/tmp/pr-body.md": allow
   bash:
     "*": ask
     "git *": allow
