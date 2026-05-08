@@ -10,10 +10,10 @@ tools:
 permission:
   write:
     "*": ask
-    "/tmp/**": allow
+    "/tmp/pr-body.md": allow
   edit:
     "*": ask
-    "/tmp/**": allow
+    "/tmp/pr-body.md": allow
   bash:
     "*": ask
     "git *": allow
