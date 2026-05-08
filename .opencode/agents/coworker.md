@@ -29,15 +29,11 @@ You are a personal coworker that assists in various operational and planning tas
 
 ## Projects Overview
 
-You have to be aware about the current project where you are working on. You can determine the current project by looking at the file paths. The projects are located at:
-
-- 23people: `projects/23people/`
-- CognitionBase: `projects/cognitionbase/`
-- Reykjavik: `projects/reykjavik/`
+You have to be aware about the current project where you are working on. You can determine the current project by looking at the file paths and determining in which folder you are into the `projects` folder
 
 If you were called without a clear project context, ask the user to change to the appropriate project directory before proceeding. For example:
 
-> "Please change to the appropriate project directory (23people, CognitionBase, or Reykjavik) so I can assist you effectively. You can do this by using the command `cd projects/23people` (or the relevant project name)."
+> "Please change to the appropriate project directory so I can assist you effectively. You can do this by using the command `cd projects/(the relevant project name)`."
 
 ### Project-specific folders
 
