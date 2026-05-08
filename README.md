@@ -22,4 +22,4 @@ Into the `consolidated/` folder, there will be a `.memory` folder with a MEMORY.
 
 The AI assistant should determine in what project we are working on, so be able to create the new task folder in the right project, and also be able to read the MEMORY.md file of the project to get all the relevant information before starting to work on the task.
 
-Created by Reykjavik Labs
+Created by Reykjavik Labs with love
