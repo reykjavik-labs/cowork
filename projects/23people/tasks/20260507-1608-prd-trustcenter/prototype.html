@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Trust Center de 23people — Evidencia verificable de certificación ISO/IEC 27001:2022, adecuación a Ley 21.719 de protección de datos y compromiso ambiental SBTi.">
+<title>Trust Center — Cumplimiento y Confianza Verificable | 23people</title>
+
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "Organization",
+	"@id": "https://23people.io/#org",
+	"name": "23people SpA",
+	"legalName": "23people SpA",
+	"url": "https://23people.io",
+	"email": "seguridad@23people.io",
+	"foundingDate": "2014-11-26",
+	"numberOfEmployees": {"@type": "QuantitativeValue","value": 90},
+	"address": {
+		"@type": "PostalAddress",
+		"addressCountry": "CL",
+		"addressLocality": "Santiago",
+		"addressRegion": "Región Metropolitana"
+	},
+	"description": "23people construye equipos de tecnología de alto rendimiento. Certificada ISO/IEC 27001:2022."
+}
+</script>
+
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "Certification",
+	"name": "ISO/IEC 27001:2022",
+	"certificationIdentification": "QCC/5290/0326",
+	"validFrom": "2026-03-25",
+	"validUntil": "2029-03-24",
+	"issuedBy": {
+		"@type": "Organization",
+		"name": "Quality Control Certification (QCC)"
+	},
+	"about": {"@id": "https://23people.io/#org"},
+	"description": "Sistema de Gestión de Seguridad de la Información certificado bajo ISO/IEC 27001:2022."
+}
+</script>
+
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "FAQPage",
+	"mainEntity": [
+		{
+			"@type": "Question",
+			"name": "¿Cómo puedo solicitar una copia del certificado ISO 27001?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Puedes descargar una copia digital del certificado directamente desde esta página, en la sección de Seguridad ISO 27001, donde encontrarás el PDF disponible. Si requieres una copia oficial adicional o verificada, puedes escribirnos a seguridad@23people.io y te la enviaremos."
+			}
+		},
+		{
+			"@type": "Question",
+			"name": "¿Qué cubre exactamente la certificación ISO 27001 de 23people?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "La certificación cubre el Sistema de Gestión de Seguridad de la Información (SGSI) de 23people SpA, incluyendo todos los servicios de desarrollo de software, consultoría tecnológica y operación de plataformas que la empresa entrega a sus clientes. El alcance abarca los procesos de diseño, desarrollo, implementación, operación y soporte, así como la gestión del talento técnico asociado. El certificado detalla el alcance exacto y está disponible para descarga y verificación externa en esta misma página."
+			}
+		},
+		{
+			"@type": "Question",
+			"name": "¿Cada cuánto se audita la certificación?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "La certificación ISO 27001 tiene una vigencia de tres años. Durante ese período, se realizan auditorías de seguimiento anuales (vigilancia) para verificar que el sistema de gestión se mantiene conforme a los requisitos de la norma. Al finalizar el ciclo de tres años, se realiza una auditoría de recertificación completa. Esto asegura que 23people no solo obtuvo la certificación, sino que mantiene y mejora continuamente su SGSI."
+			}
+		},
+		{
+			"@type": "Question",
+			"name": "¿Cómo reportar un incidente de seguridad o una vulnerabilidad?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Si detectas una vulnerabilidad de seguridad o deseas reportar un incidente, puedes escribirnos directamente a seguridad@23people.io. Nuestro equipo de seguridad revisa estos reportes con prioridad y mantiene comunicación con quien reporta a lo largo del proceso de investigación y remediación. Nos comprometemos a acusar recibo en un plazo máximo de 48 horas hábiles y mantenerte informado sobre el avance de la resolución."
+			}
+		},
+		{
+			"@type": "Question",
+			"name": "¿Cómo garantizan la seguridad al trabajar con talento externo?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "La seguridad al trabajar con talento externo es parte integral de nuestro SGSI y está cubierta por nuestro proceso de Gestión de Proveedores. Realizamos due diligence de seguridad antes de incorporar cualquier colaborador externo, exigimos NDAs y acuerdos de confidencialidad, verificamos antecedentes cuando es aplicable, y todo el personal —interno y externo— recibe formación obligatoria en seguridad de la información. Además, el acceso a nuestros sistemas y a los de nuestros clientes se rige por el principio de privilegios mínimos y se revisa periódicamente."
+			}
+		},
+		{
+			"@type": "Question",
+			"name": "¿Qué debo hacer si sospecho una brecha de seguridad?",
+			"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "Si sospechas una brecha de seguridad que involucre a 23people o a alguno de sus servicios, debes notificarlo de inmediato a través de seguridad@23people.io. En tu mensaje, incluye toda la información que puedas proporcionar: descripción del incidente, fecha y hora aproximada, servicios o sistemas afectados, y cualquier evidencia disponible. Activarás así nuestro Procedimiento de Gestión de Incidentes, que contempla contención, investigación, notificación a afectados cuando corresponda y acciones correctivas. No investigues por tu cuenta — es preferible preservar la evidencia y dejar que nuestro equipo especializado realice el análisis forense."
+			}
+		}
+	]
+}
+</script>
+
+<style>
+	*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+	:root{
+		--navy:#0a1628;
+		--navy-dark:#060f1f;
+		--navy-light:#132342;
+		--accent:#2563eb;
+		--accent-light:#3b82f6;
+		--accent-faint:#dbeafe;
+		--white:#ffffff;
+		--gray-50:#f8fafc;
+		--gray-100:#f1f5f9;
+		--gray-200:#e2e8f0;
+		--gray-300:#cbd5e1;
+		--gray-400:#94a3b8;
+		--gray-500:#64748b;
+		--gray-600:#475569;
+		--gray-700:#334155;
+		--gray-800:#1e293b;
+		--gray-900:#0f172a;
+		--green:#10b981;
+		--green-bg:#ecfdf5;
+		--green-border:#a7f3d0;
+		--green-dark:#059669;
+		--amber:#f59e0b;
+		--amber-bg:#fffbeb;
+		--blue:#2563eb;
+		--blue-bg:#eff6ff;
+		--radius:8px;
+		--radius-lg:12px;
+		--shadow-sm:0 1px 2px rgba(0,0,0,.05);
+		--shadow:0 1px 3px rgba(0,0,0,.1),0 1px 2px rgba(0,0,0,.06);
+		--shadow-md:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);
+		--shadow-lg:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);
+		--transition:200ms ease;
+	}
+	html{scroll-behavior:smooth}
+	body{
+		font-family:system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+		line-height:1.6;
+		color:var(--gray-800);
+		background:var(--gray-50);
+		-webkit-font-smoothing:antialiased;
+	}
+
+	/* ── HERO ── */
+	.hero{
+		background:linear-gradient(135deg,var(--navy) 0%,var(--navy-light) 50%,var(--navy-dark) 100%);
+		color:var(--white);
+		padding:72px 24px 64px;
+		text-align:center;
+		position:relative;
+		overflow:hidden;
+	}
+	.hero::before{
+		content:'';
+		position:absolute;
+		top:-50%;left:-50%;
+		width:200%;height:200%;
+		background:radial-gradient(ellipse at 30% 20%,rgba(37,99,235,.12) 0%,transparent 60%),
+		           radial-gradient(ellipse at 70% 80%,rgba(16,185,129,.08) 0%,transparent 60%);
+		pointer-events:none;
+	}
+	.hero-inner{max-width:880px;margin:0 auto;position:relative;z-index:1}
+	.hero-badge{
+		display:inline-flex;align-items:center;gap:8px;
+		background:rgba(16,185,129,.15);
+		border:1px solid rgba(16,185,129,.3);
+		color:var(--green);
+		border-radius:999px;
+		padding:6px 18px;
+		font-size:13px;
+		font-weight:600;
+		margin-bottom:24px;
+		letter-spacing:.01em;
+	}
+	.hero-badge .dot{
+		display:inline-block;width:8px;height:8px;
+		background:var(--green);border-radius:50%;
+		animation:pulse 2s infinite;
+	}
+	@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+	.hero h1{
+		font-size:clamp(28px,5vw,44px);
+		font-weight:800;
+		line-height:1.2;
+		margin-bottom:16px;
+		letter-spacing:-.02em;
+	}
+	.hero-sub{
+		font-size:clamp(16px,3vw,18px);
+		color:rgba(255,255,255,.75);
+		max-width:640px;
+		margin:0 auto 32px;
+		line-height:1.6;
+	}
+	.hero-stats{
+		display:flex;justify-content:center;gap:32px;
+		flex-wrap:wrap;margin-bottom:36px;
+	}
+	.hero-stat{
+		text-align:center;
+		padding:12px 20px;
+		background:rgba(255,255,255,.06);
+		border-radius:var(--radius-lg);
+		border:1px solid rgba(255,255,255,.08);
+		min-width:160px;
+	}
+	.hero-stat .stat-icon{font-size:20px;margin-bottom:4px}
+	.hero-stat .stat-val{
+		font-size:13px;font-weight:600;
+		color:var(--accent-light);
+		line-height:1.3;
+	}
+	.hero-stat .stat-label{
+		font-size:11px;color:rgba(255,255,255,.55);
+		margin-top:2px;
+	}
+	.hero-cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+	.btn{
+		display:inline-flex;align-items:center;gap:8px;
+		padding:12px 28px;border-radius:var(--radius);
+		font-size:15px;font-weight:600;
+		text-decoration:none;cursor:pointer;
+		border:none;transition:all var(--transition);
+		white-space:nowrap;
+	}
+	.btn-primary{
+		background:var(--accent);color:var(--white);
+	}
+	.btn-primary:hover{background:var(--accent-light);transform:translateY(-1px);box-shadow:var(--shadow-md)}
+	.btn-outline{
+		background:transparent;color:var(--white);
+		border:1.5px solid rgba(255,255,255,.3);
+	}
+	.btn-outline:hover{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.5)}
+	.btn-green{
+		background:var(--green);color:var(--white);
+	}
+	.btn-green:hover{background:var(--green-dark);transform:translateY(-1px)}
+	.btn-sm{padding:8px 16px;font-size:13px}
+
+	/* ── TAB SHELL ── */
+	.tab-shell{
+		max-width:1100px;margin:-32px auto 0;
+		padding:0 24px;position:relative;z-index:2;
+	}
+	.level1-container{
+		background:var(--white);
+		border-radius:var(--radius-lg);
+		box-shadow:var(--shadow-lg);
+		overflow:hidden;
+	}
+
+	/* Level 1 tabs */
+	.l1-tabs{
+		display:flex;background:var(--gray-100);
+		border-bottom:2px solid var(--gray-200);
+		overflow-x:auto;
+		-webkit-overflow-scrolling:touch;
+	}
+	.l1-tab{
+		flex:1;min-width:0;
+		padding:16px 12px;
+		text-align:center;
+		font-size:14px;font-weight:600;
+		color:var(--gray-500);
+		background:none;border:none;cursor:pointer;
+		border-bottom:3px solid transparent;
+		margin-bottom:-2px;
+		transition:all var(--transition);
+		white-space:nowrap;
+	}
+	.l1-tab:hover{color:var(--gray-700);background:var(--gray-200)}
+	.l1-tab.active{
+		color:var(--navy);background:var(--white);
+		border-bottom-color:var(--accent);
+	}
+	.l1-tab .tab-emoji{font-size:16px;margin-right:4px}
+
+	/* Mobile level 1 dropdown */
+	.l1-dropdown{display:none}
+	.l1-dropdown select{
+		width:100%;padding:14px 16px;
+		font-size:15px;font-weight:600;
+		color:var(--navy);
+		background:var(--white);
+		border:2px solid var(--gray-200);
+		border-radius:var(--radius);
+		cursor:pointer;
+		appearance:none;
+		-webkit-appearance:none;
+		background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23475569' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+		background-repeat:no-repeat;
+		background-position:right 16px center;
+	}
+
+	/* ── PILLARS ── */
+	.pillar{display:none}
+	.pillar.active{display:block}
+
+	/* Certificate card — anchored outside level 2 */
+	.cert-card{
+		background:linear-gradient(135deg,var(--green-bg),var(--white));
+		border-left:4px solid var(--green);
+		border-radius:var(--radius);
+		padding:28px 32px;
+		margin:24px 24px 0;
+	}
+	.cert-card-title{
+		font-size:18px;font-weight:700;
+		color:var(--navy);margin-bottom:20px;
+		display:flex;align-items:center;gap:8px;
+	}
+	.cert-grid{
+		display:grid;
+		grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
+		gap:16px 32px;
+		margin-bottom:20px;
+	}
+	.cert-field{}
+	.cert-field-label{
+		font-size:11px;font-weight:600;
+		color:var(--gray-400);
+		text-transform:uppercase;letter-spacing:.05em;
+		margin-bottom:2px;
+	}
+	.cert-field-value{
+		font-size:15px;font-weight:600;
+		color:var(--gray-800);
+	}
+	.cert-actions{display:flex;gap:12px;flex-wrap:wrap}
+
+	/* Level 2 tabs */
+	.l2-container{margin:0 24px 24px}
+	.l2-tabs{
+		display:flex;gap:4px;
+		border-bottom:2px solid var(--gray-200);
+		margin-bottom:24px;
+		margin-top:24px;
+		overflow-x:auto;
+		-webkit-overflow-scrolling:touch;
+		scrollbar-width:none;
+	}
+	.l2-tabs::-webkit-scrollbar{display:none}
+	.l2-tab{
+		padding:10px 16px;
+		font-size:13px;font-weight:600;
+		color:var(--gray-500);
+		background:none;border:none;
+		border-bottom:2px solid transparent;
+		margin-bottom:-2px;
+		cursor:pointer;
+		transition:all var(--transition);
+		white-space:nowrap;
+		flex-shrink:0;
+	}
+	.l2-tab:hover{color:var(--gray-700)}
+	.l2-tab.active{color:var(--accent);border-bottom-color:var(--accent)}
+	.l2-tab .l2-emoji{margin-right:4px}
+
+	/* Section content */
+	.section{display:none}
+	.section.active{display:block}
+
+	/* ── SECTION STYLES ── */
+	.rich-text{font-size:15px;line-height:1.75;color:var(--gray-700);max-width:780px}
+	.rich-text p{margin-bottom:16px}
+	.rich-text p:last-child{margin-bottom:0}
+	.rich-text h3{font-size:18px;font-weight:700;color:var(--navy);margin:24px 0 8px}
+	.rich-text ul{margin:8px 0 16px 20px}
+	.rich-text li{margin-bottom:6px}
+
+	/* Control cards grid */
+	.controls-grid{
+		display:grid;
+		grid-template-columns:repeat(3,1fr);
+		gap:16px;
+	}
+	.control-card{
+		background:var(--white);
+		border:1px solid var(--gray-200);
+		border-radius:var(--radius);
+		padding:20px;
+		transition:all var(--transition);
+	}
+	.control-card:hover{border-color:var(--accent-light);box-shadow:var(--shadow)}
+	.control-icon{font-size:28px;margin-bottom:10px}
+	.control-card h4{font-size:15px;font-weight:700;color:var(--navy);margin-bottom:6px}
+	.control-card p{font-size:13px;color:var(--gray-500);line-height:1.5}
+
+	/* PDCA */
+	.pdca-grid{
+		display:grid;
+		grid-template-columns:1fr 1fr;
+		gap:12px;
+		max-width:700px;
+	}
+	.pdca-card{
+		background:var(--white);
+		border:1.5px solid var(--gray-200);
+		border-radius:var(--radius);
+		padding:20px;
+		position:relative;
+		transition:all var(--transition);
+	}
+	.pdca-card:hover{border-color:var(--accent);box-shadow:var(--shadow)}
+	.pdca-card .pdca-letter{
+		font-size:36px;font-weight:900;
+		line-height:1;
+		margin-bottom:6px;
+	}
+	.pdca-card:nth-child(1) .pdca-letter{color:var(--accent)}
+	.pdca-card:nth-child(2) .pdca-letter{color:var(--green)}
+	.pdca-card:nth-child(3) .pdca-letter{color:var(--amber)}
+	.pdca-card:nth-child(4) .pdca-letter{color:#8b5cf6}
+	.pdca-card h4{font-size:14px;font-weight:700;color:var(--navy);margin-bottom:6px}
+	.pdca-card p{font-size:13px;color:var(--gray-500);line-height:1.5}
+
+	/* Table */
+	.table-wrap{overflow-x:auto;border-radius:var(--radius);border:1px solid var(--gray-200)}
+	.data-table{width:100%;border-collapse:collapse;font-size:14px;min-width:500px}
+	.data-table thead{background:var(--gray-100)}
+	.data-table th{
+		padding:12px 16px;
+		text-align:left;font-weight:700;font-size:12px;
+		color:var(--gray-500);text-transform:uppercase;
+		letter-spacing:.04em;
+		border-bottom:2px solid var(--gray-200);
+	}
+	.data-table td{
+		padding:12px 16px;
+		border-bottom:1px solid var(--gray-100);
+		color:var(--gray-700);
+	}
+	.data-table tbody tr:hover{background:var(--gray-50)}
+	.status{display:inline-flex;align-items:center;gap:6px;font-weight:600;font-size:13px}
+	.status-done{color:var(--green)}
+	.status-progress{color:var(--amber)}
+	.status-next{color:var(--gray-400)}
+
+	/* FAQ Accordion */
+	.faq-list{max-width:720px}
+	.faq-item{border:1px solid var(--gray-200);border-radius:var(--radius);margin-bottom:8px;overflow:hidden}
+	.faq-q{
+		width:100%;padding:16px 48px 16px 20px;
+		text-align:left;font-size:15px;font-weight:600;
+		color:var(--navy);background:var(--white);
+		border:none;cursor:pointer;
+		position:relative;
+		transition:all var(--transition);
+	}
+	.faq-q:hover{background:var(--gray-50)}
+	.faq-q::after{
+		content:'+';position:absolute;
+		right:16px;top:50%;transform:translateY(-50%);
+		font-size:20px;font-weight:400;
+		color:var(--gray-400);
+		transition:transform var(--transition);
+	}
+	.faq-item.open .faq-q{background:var(--blue-bg);color:var(--accent)}
+	.faq-item.open .faq-q::after{content:'−';color:var(--accent)}
+	.faq-a{
+		max-height:0;overflow:hidden;
+		transition:max-height 300ms ease,padding 300ms ease;
+	}
+	.faq-item.open .faq-a{
+		max-height:600px;
+		padding:0 20px 20px;
+	}
+	.faq-a p{font-size:14px;color:var(--gray-600);line-height:1.7}
+
+	/* Contact / CTA inline */
+	.contact-block{
+		background:var(--blue-bg);
+		border-radius:var(--radius);
+		padding:24px;max-width:480px;
+	}
+	.contact-block p{font-size:14px;color:var(--gray-600);margin-bottom:12px}
+	.contact-block a{color:var(--accent);font-weight:600;text-decoration:none}
+	.contact-block a:hover{text-decoration:underline}
+
+	/* ARCO Legal block */
+	.arco-block{
+		background:linear-gradient(135deg,var(--blue-bg),var(--white));
+		border:1.5px solid var(--accent-faint);
+		border-radius:var(--radius-lg);
+		padding:28px 32px;max-width:640px;
+	}
+	.arco-block h4{font-size:17px;font-weight:700;color:var(--navy);margin-bottom:8px}
+	.arco-block p{font-size:14px;color:var(--gray-600);margin-bottom:16px;line-height:1.6}
+	.arco-features{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}
+	.arco-tag{
+		font-size:11px;font-weight:600;
+		padding:4px 10px;border-radius:999px;
+		background:var(--accent-faint);color:var(--accent);
+	}
+
+	/* Info block */
+	.info-block{
+		background:var(--white);
+		border:1px solid var(--gray-200);
+		border-radius:var(--radius);
+		padding:20px;max-width:720px;
+		margin-bottom:12px;
+	}
+	.info-block h4{font-size:15px;font-weight:700;color:var(--navy);margin-bottom:8px}
+	.info-block p,.info-block li{font-size:14px;color:var(--gray-600);line-height:1.6}
+
+	/* ── FOOTER ── */
+	.page-footer{
+		text-align:center;padding:40px 24px;
+		color:var(--gray-400);font-size:13px;
+		border-top:1px solid var(--gray-200);
+		margin-top:56px;
+	}
+	.page-footer a{color:var(--gray-500);text-decoration:none}
+	.page-footer a:hover{color:var(--accent)}
+
+	/* ── RESPONSIVE ── */
+	@media(max-width:1024px){
+		.controls-grid{grid-template-columns:repeat(2,1fr)}
+		.pdca-grid{grid-template-columns:1fr 1fr}
+	}
+	@media(max-width:768px){
+		.hero{padding:48px 16px 40px}
+		.hero-stats{gap:12px}
+		.hero-stat{min-width:130px;padding:10px 12px}
+		.l1-tabs{display:none}
+		.l1-dropdown{display:block;padding:16px 16px 0}
+		.l2-container{margin:0 12px 16px}
+		.l2-tabs{gap:8px}
+		.cert-card{margin:16px 12px 0;padding:20px 16px}
+		.cert-grid{grid-template-columns:1fr}
+		.controls-grid{grid-template-columns:1fr}
+		.pdca-grid{grid-template-columns:1fr}
+		.tab-shell{padding:0 12px}
+	}
+
+	@media(max-width:480px){
+		.hero h1{font-size:24px}
+		.hero-sub{font-size:14px}
+		.hero-stats{flex-direction:column;align-items:center}
+		.btn{padding:10px 20px;font-size:14px}
+	}
+</style>
+</head>
+<body>
+
+<!-- ═══════════ HERO ═══════════ -->
+<header class="hero">
+	<div class="hero-inner">
+		<div class="hero-badge"><span class="dot"></span>ISO/IEC 27001:2022 Certificado</div>
+		<h1>Trust Center — Cumplimiento y Confianza Verificable</h1>
+		<p class="hero-sub">Evidencia concreta del compromiso de 23people con la seguridad de la información, protección de datos personales y responsabilidad ambiental.</p>
+		<div class="hero-stats">
+			<div class="hero-stat"><div class="stat-icon">🔒</div><div class="stat-val">ISO/IEC 27001:2022</div><div class="stat-label">Estándar internacional</div></div>
+			<div class="hero-stat"><div class="stat-icon">📅</div><div class="stat-val">Vigente hasta 24 Mar 2029</div><div class="stat-label">Certificación activa</div></div>
+			<div class="hero-stat"><div class="stat-icon">✅</div><div class="stat-val">Certificado por QCC</div><div class="stat-label">Organismo acreditado</div></div>
+		</div>
+		<div class="hero-cta">
+			<a href="#tabs" class="btn btn-primary" id="hero-cta-cert">Ver certificación</a>
+			<a href="mailto:trust@23people.io" class="btn btn-outline" id="hero-cta-contact">Consultas de seguridad</a>
+		</div>
+	</div>
+</header>
+
+<!-- ═══════════ TAB SHELL ═══════════ -->
+<div class="tab-shell" id="tabs">
+
+<!-- Level 1 Dropdown (mobile) -->
+<div class="l1-dropdown">
+	<select id="l1-mobile-select">
+		<option value="pilar-1">🔒 Seguridad ISO 27001</option>
+		<option value="pilar-2">🛡️ Protección de Datos (Ley 21.719)</option>
+		<option value="pilar-3">🌱 Responsabilidad Ambiental (SBTi)</option>
+	</select>
+</div>
+
+<!-- Level 1 Tabs (desktop) -->
+<div class="l1-tabs" id="l1-tabs">
+	<button class="l1-tab active" data-pilar="pilar-1"><span class="tab-emoji">🔒</span>Seguridad ISO 27001</button>
+	<button class="l1-tab" data-pilar="pilar-2"><span class="tab-emoji">🛡️</span>Protección de Datos (Ley 21.719)</button>
+	<button class="l1-tab" data-pilar="pilar-3"><span class="tab-emoji">🌱</span>Responsabilidad Ambiental (SBTi)</button>
+</div>
+
+<div class="level1-container">
+<!-- ═══════════ PILAR 1 ═══════════ -->
+<div class="pillar active" id="pilar-1">
+
+	<!-- Certificate Card — ALWAYS VISIBLE -->
+	<div class="cert-card">
+		<div class="cert-card-title">📜 Certificado ISO/IEC 27001:2022</div>
+		<div class="cert-grid">
+			<div class="cert-field"><div class="cert-field-label">Empresa</div><div class="cert-field-value">23people SpA</div></div>
+			<div class="cert-field"><div class="cert-field-label">N° Certificado</div><div class="cert-field-value">QCC/5290/0326</div></div>
+			<div class="cert-field"><div class="cert-field-label">Emisión</div><div class="cert-field-value">25 de marzo de 2026</div></div>
+			<div class="cert-field"><div class="cert-field-label">Vigencia hasta</div><div class="cert-field-value">24 de marzo de 2029</div></div>
+			<div class="cert-field"><div class="cert-field-label">Organismo Certificador</div><div class="cert-field-value">Quality Control Certification (QCC)</div></div>
+			<div class="cert-field"><div class="cert-field-label">Acreditación</div><div class="cert-field-value">ISO/IEC 17021-1</div></div>
+		</div>
+		<div class="cert-actions">
+			<a href="#" class="btn btn-green" id="btn-download-cert">Descargar Certificado (PDF)</a>
+			<a href="https://qccertification.com/Client.aspx" class="btn btn-outline" style="color:var(--navy);border-color:var(--gray-300)" target="_blank" rel="noopener">Verificar en qccertification.com ↗</a>
+		</div>
+	</div>
+
+	<!-- Level 2 Tabs -->
+	<div class="l2-container">
+		<div class="l2-tabs">
+			<button class="l2-tab active" data-section="p1-s1"><span class="l2-emoji">📘</span>¿Qué es ISO 27001?</button>
+			<button class="l2-tab" data-section="p1-s2"><span class="l2-emoji">🛡️</span>Controles de Seguridad</button>
+			<button class="l2-tab" data-section="p1-s3"><span class="l2-emoji">🔄</span>Ciclo PDCA</button>
+			<button class="l2-tab" data-section="p1-s4"><span class="l2-emoji">🗺️</span>Roadmap de Seguridad</button>
+			<button class="l2-tab" data-section="p1-s5"><span class="l2-emoji">❓</span>FAQ</button>
+			<button class="l2-tab" data-section="p1-s6"><span class="l2-emoji">📬</span>Contacto de Seguridad</button>
+		</div>
+
+		<!-- Section 1: ¿Qué es ISO 27001? -->
+		<div class="section active" id="p1-s1">
+			<div class="rich-text">
+				<p>ISO/IEC 27001:2022 es el estándar internacional más reconocido para la gestión de la seguridad de la información. Publicado por la Organización Internacional de Normalización (ISO) y la Comisión Electrotécnica Internacional (IEC), establece los requisitos para implementar, mantener y mejorar continuamente un Sistema de Gestión de Seguridad de la Información (SGSI).</p>
+				<p>Para los clientes de 23people, contar con un partner certificado en ISO 27001 significa que la empresa ha sido auditada por un organismo independiente y acreditado —Quality Control Certification (QCC)— y que cumple con más de 90 controles de seguridad organizados en los dominios del Anexo A de la norma. Esto no es una autodeclaración: es una verificación externa y periódica de que nuestros procesos, tecnología y personas operan bajo un marco de seguridad robusto.</p>
+				<p>Estar certificados implica que 23people gestiona proactivamente los riesgos de seguridad de la información en todos sus servicios: desde el desarrollo de software hasta la consultoría tecnológica y la operación de plataformas. Para nuestros clientes, esto se traduce en confianza verificable, reducción de riesgos en la cadena de suministro, cumplimiento con requisitos regulatorios y contractuales, y la garantía de que la seguridad es un compromiso institucional, no una iniciativa aislada.</p>
+			</div>
+		</div>
+
+		<!-- Section 2: Controles de Seguridad -->
+		<div class="section" id="p1-s2">
+			<div class="controls-grid">
+				<div class="control-card"><div class="control-icon">🔐</div><h4>Control de Acceso</h4><p>Gestión de identidades, autenticación multifactor, privilegios mínimos y revisiones periódicas de accesos.</p></div>
+				<div class="control-card"><div class="control-icon">🔑</div><h4>Criptografía</h4><p>Cifrado en reposo y en tránsito, gestión de claves criptográficas y políticas de uso de algoritmos seguros.</p></div>
+				<div class="control-card"><div class="control-icon">🏢</div><h4>Seguridad Física</h4><p>Centros de datos con certificación, controles de acceso físico, monitoreo ambiental y protección perimetral.</p></div>
+				<div class="control-card"><div class="control-icon">⚙️</div><h4>Seguridad Operacional</h4><p>Gestión de cambios, protección contra malware, copias de seguridad y procedimientos de recuperación.</p></div>
+				<div class="control-card"><div class="control-icon">🌐</div><h4>Seguridad de Comunicaciones</h4><p>Redes segmentadas, firewalls de próxima generación, VPNs y monitoreo continuo de tráfico.</p></div>
+				<div class="control-card"><div class="control-icon">💻</div><h4>Adquisición y Desarrollo</h4><p>SDLC seguro, revisiones de código, pruebas de seguridad automatizadas y gestión de vulnerabilidades.</p></div>
+				<div class="control-card"><div class="control-icon">🤝</div><h4>Gestión de Proveedores</h4><p>Due diligence de seguridad, acuerdos de nivel de seguridad (SLA) y monitoreo continuo de terceros.</p></div>
+				<div class="control-card"><div class="control-icon">🚨</div><h4>Gestión de Incidentes</h4><p>Plan de respuesta a incidentes, notificación oportuna y lecciones aprendidas para mejora continua.</p></div>
+			</div>
+		</div>
+
+		<!-- Section 3: Ciclo PDCA -->
+		<div class="section" id="p1-s3">
+			<div class="pdca-grid">
+				<div class="pdca-card"><div class="pdca-letter">P</div><h4>PLAN (Planificar)</h4><p>Definición de políticas de seguridad, establecimiento de objetivos del SGSI, evaluación de riesgos y selección de controles adecuados al contexto de la organización.</p></div>
+				<div class="pdca-card"><div class="pdca-letter">D</div><h4>DO (Implementar)</h4><p>Despliegue de los controles de seguridad seleccionados, formación y concientización del personal, y operación diaria del sistema de gestión.</p></div>
+				<div class="pdca-card"><div class="pdca-letter">C</div><h4>CHECK (Verificar)</h4><p>Auditorías internas periódicas, monitoreo de indicadores de desempeño, medición de la eficacia de los controles y revisión del cumplimiento.</p></div>
+				<div class="pdca-card"><div class="pdca-letter">A</div><h4>ACT (Mejorar)</h4><p>Implementación de acciones correctivas y preventivas, mejora continua del SGSI y revisión por la dirección para asegurar la alineación estratégica.</p></div>
+			</div>
+		</div>
+
+		<!-- Section 4: Roadmap de Seguridad -->
+		<div class="section" id="p1-s4">
+			<div class="table-wrap">
+				<table class="data-table">
+					<thead><tr><th>Iniciativa</th><th>Estado</th><th>Fecha estimada</th></tr></thead>
+					<tbody>
+						<tr><td>Certificación ISO/IEC 27001:2022</td><td><span class="status status-done">✅ Completado</span></td><td>Mar 2026</td></tr>
+						<tr><td>Auditoría de seguimiento 1</td><td><span class="status status-progress">🔄 En curso</span></td><td>Sep 2026</td></tr>
+						<tr><td>Programa de concientización en seguridad</td><td><span class="status status-progress">🔄 En curso</span></td><td>Dic 2026</td></tr>
+						<tr><td>Certificación ISO/IEC 27701 (Privacidad)</td><td><span class="status status-next">📋 Próximo</span></td><td>Jun 2027</td></tr>
+						<tr><td>Pentesting externo anual</td><td><span class="status status-next">📋 Próximo</span></td><td>Dic 2026</td></tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<!-- Section 5: FAQ -->
+		<div class="section" id="p1-s5">
+			<div class="faq-list">
+				<div class="faq-item">
+					<button class="faq-q">¿Cómo puedo solicitar una copia del certificado ISO 27001?</button>
+					<div class="faq-a"><p>Puedes descargar una copia digital del certificado directamente desde esta página, en la sección de Seguridad ISO 27001, donde encontrarás el PDF disponible. Si requieres una copia oficial adicional o verificada, puedes escribirnos a seguridad@23people.io y te la enviaremos.</p></div>
+				</div>
+				<div class="faq-item">
+					<button class="faq-q">¿Qué cubre exactamente la certificación ISO 27001 de 23people?</button>
+					<div class="faq-a"><p>La certificación cubre el Sistema de Gestión de Seguridad de la Información (SGSI) de 23people SpA, incluyendo todos los servicios de desarrollo de software, consultoría tecnológica y operación de plataformas que la empresa entrega a sus clientes. El alcance abarca los procesos de diseño, desarrollo, implementación, operación y soporte, así como la gestión del talento técnico asociado. El certificado detalla el alcance exacto y está disponible para descarga y verificación externa en esta misma página.</p></div>
+				</div>
+				<div class="faq-item">
+					<button class="faq-q">¿Cada cuánto se audita la certificación?</button>
+					<div class="faq-a"><p>La certificación ISO 27001 tiene una vigencia de tres años. Durante ese período, se realizan auditorías de seguimiento anuales (vigilancia) para verificar que el sistema de gestión se mantiene conforme a los requisitos de la norma. Al finalizar el ciclo de tres años, se realiza una auditoría de recertificación completa. Esto asegura que 23people no solo obtuvo la certificación, sino que mantiene y mejora continuamente su SGSI.</p></div>
+				</div>
+				<div class="faq-item">
+					<button class="faq-q">¿Cómo reportar un incidente de seguridad o una vulnerabilidad?</button>
+					<div class="faq-a"><p>Si detectas una vulnerabilidad de seguridad o deseas reportar un incidente, puedes escribirnos directamente a seguridad@23people.io. Nuestro equipo de seguridad revisa estos reportes con prioridad y mantiene comunicación con quien reporta a lo largo del proceso de investigación y remediación. Nos comprometemos a acusar recibo en un plazo máximo de 48 horas hábiles y mantenerte informado sobre el avance de la resolución.</p></div>
+				</div>
+				<div class="faq-item">
+					<button class="faq-q">¿Cómo garantizan la seguridad al trabajar con talento externo?</button>
+					<div class="faq-a"><p>La seguridad al trabajar con talento externo es parte integral de nuestro SGSI y está cubierta por nuestro proceso de Gestión de Proveedores. Realizamos due diligence de seguridad antes de incorporar cualquier colaborador externo, exigimos NDAs y acuerdos de confidencialidad, verificamos antecedentes cuando es aplicable, y todo el personal —interno y externo— recibe formación obligatoria en seguridad de la información. Además, el acceso a nuestros sistemas y a los de nuestros clientes se rige por el principio de privilegios mínimos y se revisa periódicamente.</p></div>
+				</div>
+				<div class="faq-item">
+					<button class="faq-q">¿Qué debo hacer si sospecho una brecha de seguridad?</button>
+					<div class="faq-a"><p>Si sospechas una brecha de seguridad que involucre a 23people o a alguno de sus servicios, debes notificarlo de inmediato a través de seguridad@23people.io. En tu mensaje, incluye toda la información que puedas proporcionar: descripción del incidente, fecha y hora aproximada, servicios o sistemas afectados, y cualquier evidencia disponible. Activarás así nuestro Procedimiento de Gestión de Incidentes, que contempla contención, investigación, notificación a afectados cuando corresponda y acciones correctivas. No investigues por tu cuenta — es preferible preservar la evidencia y dejar que nuestro equipo especializado realice el análisis forense.</p></div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Section 6: Contacto de Seguridad -->
+		<div class="section" id="p1-s6">
+			<div class="contact-block">
+				<p>Para cualquier consulta relacionada con seguridad de la información o nuestra certificación ISO/IEC 27001:2022, puedes contactarnos a través de los siguientes canales:</p>
+				<p><strong>Seguridad:</strong> <a href="mailto:seguridad@23people.io">seguridad@23people.io</a></p>
+				<p><strong>Consultas generales:</strong> <a href="mailto:trust@23people.io">trust@23people.io</a></p>
+				<p style="margin-top:12px;font-size:13px;color:var(--gray-400)">Nos comprometemos a responder en un plazo máximo de 48 horas hábiles.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ═══════════ PILAR 2 ═══════════ -->
+<div class="pillar" id="pilar-2">
+	<div class="l2-container">
+		<div class="l2-tabs">
+			<button class="l2-tab active" data-section="p2-s1"><span class="l2-emoji">⚖️</span>Contexto Legal</button>
+			<button class="l2-tab" data-section="p2-s2"><span class="l2-emoji">🗺️</span>Roadmap de Adecuación</button>
+			<button class="l2-tab" data-section="p2-s3"><span class="l2-emoji">🏛️</span>ARCO Legal</button>
+		</div>
+
+		<!-- Section 1: Contexto Legal -->
+		<div class="section active" id="p2-s1">
+			<div class="rich-text">
+				<p>La Ley N° 21.719 de Protección de Datos Personales, publicada el 13 de diciembre de 2024, es la nueva normativa chilena que moderniza el marco regulatorio de privacidad y tratamiento de datos personales en Chile. Esta ley tiene plena vigencia y fiscalización a partir de diciembre de 2026, y es fiscalizada por la nueva Agencia de Protección de Datos Personales, organismo técnico encargado de velar por el cumplimiento y aplicar sanciones.</p>
+				<h3>Obligaciones principales para 23people</h3>
+				<ul>
+					<li><strong>Consentimiento informado:</strong> Toda recolección de datos personales debe contar con consentimiento explícito, informado y verificable del titular.</li>
+					<li><strong>Limitación de finalidad:</strong> Los datos solo pueden ser utilizados para las finalidades específicas informadas al titular y no para propósitos incompatibles.</li>
+					<li><strong>Derechos ARCO:</strong> Los titulares tienen derecho de Acceso, Rectificación, Cancelación y Oposición sobre sus datos personales, y las empresas deben responder en plazos legales.</li>
+					<li><strong>Medidas de seguridad:</strong> Obligación de implementar medidas técnicas y organizativas apropiadas para proteger los datos personales contra accesos no autorizados, pérdida o filtración.</li>
+					<li><strong>Notificación de brechas:</strong> En caso de violación de seguridad que afecte datos personales, existe la obligación de notificar a la autoridad y, en ciertos casos, a los titulares afectados.</li>
+					<li><strong>Delegado de Protección de Datos:</strong> Designación obligatoria de un responsable interno ante la autoridad de control.</li>
+				</ul>
+				<h3>Sanciones</h3>
+				<p>El incumplimiento de la Ley 21.719 puede conllevar multas de hasta 20.000 UTM (aproximadamente $1.300 millones de pesos chilenos a valor 2026) o hasta el 4% de los ingresos anuales de la empresa, lo que resulte mayor. Además, la autoridad puede ordenar la suspensión temporal de operaciones de tratamiento de datos e imponer medidas correctivas obligatorias.</p>
+			</div>
+		</div>
+
+		<!-- Section 2: Roadmap de Adecuación -->
+		<div class="section" id="p2-s2">
+			<div class="table-wrap">
+				<table class="data-table">
+					<thead><tr><th>Iniciativa</th><th>Estado</th><th>Fecha</th></tr></thead>
+					<tbody>
+						<tr><td>Designación de Delegado de Protección de Datos</td><td><span class="status status-done">✅ Completado</span></td><td>Ene 2026</td></tr>
+						<tr><td>Inventario de datos personales</td><td><span class="status status-done">✅ Completado</span></td><td>Feb 2026</td></tr>
+						<tr><td>Política de Privacidad actualizada</td><td><span class="status status-done">✅ Completado</span></td><td>Mar 2026</td></tr>
+						<tr><td>Procedimientos de derechos ARCO</td><td><span class="status status-progress">🔄 En curso</span></td><td>Jun 2026</td></tr>
+						<tr><td>Evaluación de impacto (DPIA)</td><td><span class="status status-progress">🔄 En curso</span></td><td>Sep 2026</td></tr>
+						<tr><td>Acuerdos de encargado de tratamiento</td><td><span class="status status-next">📋 Próximo</span></td><td>Oct 2026</td></tr>
+						<tr><td>Adecuación completa a Ley 21.719</td><td><span class="status status-next">📋 Próximo</span></td><td>Dic 2026</td></tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<!-- Section 3: ARCO Legal -->
+		<div class="section" id="p2-s3">
+			<div class="arco-block">
+				<h4>ARCO Legal — Cumplimiento simplificado</h4>
+				<p>ARCO Legal es la plataforma SaaS desarrollada por 23people que automatiza el cumplimiento con la Ley N° 21.719. Diseñada para empresas chilenas que necesitan adecuarse a la nueva normativa de protección de datos personales sin complejidad legal ni técnica.</p>
+				<div class="arco-features">
+					<span class="arco-tag">Gestión de derechos ARCO</span>
+					<span class="arco-tag">Registro de tratamiento</span>
+					<span class="arco-tag">Evaluación de impacto (DPIA)</span>
+					<span class="arco-tag">Generación de políticas</span>
+					<span class="arco-tag">Notificación de brechas</span>
+					<span class="arco-tag">Portal del titular</span>
+				</div>
+				<a href="https://arco.legal" target="_blank" rel="noopener" class="btn btn-primary">Conocer ARCO Legal ↗</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ═══════════ PILAR 3 ═══════════ -->
+<div class="pillar" id="pilar-3">
+	<div class="l2-container">
+		<div class="l2-tabs">
+			<button class="l2-tab active" data-section="p3-s1"><span class="l2-emoji">🌱</span>Nuestro Compromiso</button>
+			<button class="l2-tab" data-section="p3-s2"><span class="l2-emoji">🗺️</span>Roadmap Ambiental</button>
+			<button class="l2-tab" data-section="p3-s3"><span class="l2-emoji">🏛️</span>Gobernanza</button>
+			<button class="l2-tab" data-section="p3-s4"><span class="l2-emoji">❓</span>FAQ Ambiental</button>
+		</div>
+
+		<!-- Section 1: Nuestro Compromiso -->
+		<div class="section active" id="p3-s1">
+			<div class="rich-text">
+				<p>23people ha adoptado formalmente los Science Based Targets (SBTi), la iniciativa global que valida que los objetivos de reducción de emisiones de una empresa estén alineados con la ciencia climática y el Acuerdo de París —limitar el calentamiento global a 1.5°C sobre niveles preindustriales—.</p>
+				<p>Nuestros objetivos de reducción de emisiones de gases de efecto invernadero (GEI), basados en ciencia y en proceso de validación por SBTi, son:</p>
+				<ul>
+					<li><strong>Reducción del 50% de emisiones Alcance 1 y 2 para 2030</strong> (año base 2024). Esto incluye emisiones directas de nuestras operaciones y emisiones indirectas por consumo eléctrico.</li>
+					<li><strong>Carbono neutralidad (net-zero) para 2040</strong> en todos los alcances (1, 2 y 3).</li>
+					<li><strong>Reducción del 30% de emisiones Alcance 3 para 2030</strong>, cubriendo nuestra cadena de valor: viajes, desplazamientos, servicios en la nube, y compras.</li>
+				</ul>
+				<p>Como empresa 100% digital y remota, nuestra huella operativa directa es inherentemente baja en comparación con industrias tradicionales. No obstante, somos conscientes del impacto de nuestros servicios en la nube y la infraestructura tecnológica, y trabajamos con proveedores cloud que cuentan con certificaciones de energía renovable y eficiencia energética. Nuestro compromiso SBTi es público, medible y auditado.</p>
+			</div>
+		</div>
+
+		<!-- Section 2: Roadmap Ambiental -->
+		<div class="section" id="p3-s2">
+			<div class="table-wrap">
+				<table class="data-table">
+					<thead><tr><th>Iniciativa</th><th>Estado</th><th>Fecha</th></tr></thead>
+					<tbody>
+						<tr><td>Adopción de compromiso SBTi</td><td><span class="status status-done">✅ Completado</span></td><td>Ene 2025</td></tr>
+						<tr><td>Definición de política ambiental</td><td><span class="status status-done">✅ Completado</span></td><td>Jun 2025</td></tr>
+						<tr><td>Medición de huella de carbono (GHG Protocol)</td><td><span class="status status-progress">🔄 En curso</span></td><td>Dic 2026</td></tr>
+						<tr><td>Estrategia de reducción de emisiones</td><td><span class="status status-next">📋 Próximo</span></td><td>Jun 2027</td></tr>
+						<tr><td>Compensación de carbono</td><td><span class="status status-next">📋 Próximo</span></td><td>Dic 2027</td></tr>
+						<tr><td>Reporte de sostenibilidad</td><td><span class="status status-next">📋 Próximo</span></td><td>Mar 2027</td></tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
+		<!-- Section 3: Gobernanza -->
+		<div class="section" id="p3-s3">
+			<div class="rich-text">
+				<p>La gobernanza de sostenibilidad en 23people está estructurada para asegurar que el compromiso ambiental sea transversal a toda la organización, con responsabilidades claras y rendición de cuentas periódica.</p>
+			</div>
+			<div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:16px">
+				<div class="info-block" style="flex:1;min-width:200px">
+					<h4>🌿 Sustainability Leader</h4>
+					<p>Responsable de la estrategia ambiental corporativa, reporta directamente a la dirección ejecutiva. Define objetivos, supervisa la medición de huella y representa a 23people ante SBTi y otros foros de sostenibilidad.</p>
+				</div>
+				<div class="info-block" style="flex:1;min-width:200px">
+					<h4>🌱 Green Ambassadors</h4>
+					<p>Un representante por equipo (ingeniería, diseño, operaciones, talento) que promueve prácticas sostenibles en el día a día, lidera iniciativas locales de reducción de impacto y reporta al Sustainability Leader.</p>
+				</div>
+				<div class="info-block" style="flex:1;min-width:200px">
+					<h4>💻 Tech Sustainability Lead</h4>
+					<p>Enfocado en la eficiencia energética de nuestra infraestructura tecnológica, optimización de cargas en la nube, selección de proveedores con criterios de sostenibilidad y medición del Alcance 3 tecnológico.</p>
+				</div>
+			</div>
+			<div class="rich-text" style="margin-top:16px">
+				<p><strong>Reuniones mensuales</strong> del comité de sostenibilidad, <strong>medición anual</strong> de huella de carbono bajo GHG Protocol, y <strong>reporte transparente</strong> de avances a todos los grupos de interés.</p>
+			</div>
+		</div>
+
+		<!-- Section 4: FAQ Ambiental -->
+		<div class="section" id="p3-s4">
+			<div class="faq-list">
+				<div class="faq-item">
+					<button class="faq-q">¿Qué son los Science Based Targets (SBTi)?</button>
+					<div class="faq-a"><p>Los Science Based Targets (SBTi) son objetivos de reducción de emisiones de gases de efecto invernadero alineados con lo que la ciencia climática más reciente considera necesario para limitar el calentamiento global a 1.5°C. La iniciativa SBTi es una colaboración entre CDP, Pacto Mundial de las Naciones Unidas, WRI y WWF. Las empresas que adoptan SBTi se comprometen públicamente a metas de reducción cuantificables, verificables y con plazos definidos, demostrando un compromiso climático real y no meramente declarativo.</p></div>
+				</div>
+				<div class="faq-item">
+					<button class="faq-q">¿Cómo mide 23people su huella de carbono?</button>
+					<div class="faq-a"><p>Utilizamos la metodología del GHG Protocol (Greenhouse Gas Protocol), el estándar internacional más utilizado para la contabilidad de emisiones. Esto incluye la medición de los tres alcances: Alcance 1 (emisiones directas de fuentes propias), Alcance 2 (emisiones indirectas por consumo de electricidad) y Alcance 3 (emisiones de la cadena de valor, incluyendo proveedores cloud, viajes y desplazamientos del equipo). La medición se realiza anualmente y los resultados serán publicados en nuestro reporte de sostenibilidad.</p></div>
+				</div>
+				<div class="faq-item">
+					<button class="faq-q">¿Cuándo alcanzará 23people la carbono neutralidad?</button>
+					<div class="faq-a"><p>Nuestro objetivo es alcanzar la carbono neutralidad (net-zero) para el año 2040, cubriendo los tres alcances de emisiones. Este es un objetivo de largo plazo que requiere transformaciones progresivas en nuestra cadena de valor, la adopción de tecnologías más eficientes y la compensación de emisiones residuales. Como hitos intermedios, hemos establecido una reducción del 50% en emisiones Alcance 1+2 para 2030 y del 30% en Alcance 3 para el mismo año.</p></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</div><!-- /level1-container -->
+</div><!-- /tab-shell -->
+
+<!-- ═══════════ FOOTER ═══════════ -->
+<footer class="page-footer">
+	<p>© 2026 23people SpA &nbsp;|&nbsp; <a href="mailto:trust@23people.io">trust@23people.io</a> &nbsp;|&nbsp; Santiago, Chile</p>
+</footer>
+
+<!-- ═══════════ SCRIPTS ═══════════ -->
+<script>
+(function(){
+
+/* ── UTILS ── */
+function $(sel,ctx){return(ctx||document).querySelector(sel)}
+function $$(sel,ctx){return Array.from((ctx||document).querySelectorAll(sel))}
+
+/* ── HASH SYNC ── */
+function getHashPilar(){var h=location.hash;var m=h.match(/#(pilar-\d)/);return m?m[1]:null}
+function setHash(pilar){if(location.hash!=='#'+pilar) history.replaceState(null,'','#'+pilar)}
+
+/* ── LEVEL 1: PILLAR TABS ── */
+function activatePilar(pilarId){
+	/* Pillars */
+	$$('.pillar').forEach(function(p){p.classList.remove('active')});
+	var pillar=document.getElementById(pilarId);
+	if(pillar) pillar.classList.add('active');
+
+	/* Desktop tabs */
+	$$('.l1-tab').forEach(function(t){t.classList.toggle('active',t.dataset.pilar===pilarId)});
+
+	/* Mobile dropdown */
+	var sel=$('#l1-mobile-select');
+	if(sel && sel.value!==pilarId) sel.value=pilarId;
+
+	/* Level 2: reset to first section in this pillar */
+	var firstL2=$('.l2-tab.active',pillar);
+	if(!firstL2){
+		var allL2=$$('.l2-tab',pillar);
+		if(allL2.length){allL2[0].classList.add('active');activateSection(allL2[0].dataset.section)}
+	}
+	/* Ensure visible sections match active l2 tabs */
+	$$('.l2-tab.active',pillar).forEach(function(t){activateSection(t.dataset.section)});
+
+	setHash(pilarId);
+}
+
+function activateSection(sectionId){
+	var section=document.getElementById(sectionId);
+	if(!section) return;
+	var pillar=section.closest('.pillar');
+
+	/* Deactivate siblings */
+	$$('.section.active',pillar).forEach(function(s){if(s!==section) s.classList.remove('active')});
+	section.classList.add('active');
+
+	/* L2 tabs */
+	$$('.l2-tab',pillar).forEach(function(t){t.classList.toggle('active',t.dataset.section===sectionId)});
+}
+
+/* ── LEVEL 1 CLICKS ── */
+$$('.l1-tab').forEach(function(btn){
+	btn.addEventListener('click',function(){activatePilar(btn.dataset.pilar)});
+});
+
+/* ── MOBILE DROPDOWN ── */
+var mobileSelect=$('#l1-mobile-select');
+if(mobileSelect){
+	mobileSelect.addEventListener('change',function(){activatePilar(mobileSelect.value)});
+}
+
+/* ── LEVEL 2 CLICKS ── */
+document.addEventListener('click',function(e){
+	var l2tab=e.target.closest('.l2-tab');
+	if(!l2tab) return;
+	e.preventDefault();
+	activateSection(l2tab.dataset.section);
+});
+
+/* ── FAQ ACCORDION ── */
+document.addEventListener('click',function(e){
+	var q=e.target.closest('.faq-q');
+	if(!q) return;
+	var item=q.closest('.faq-item');
+	item.classList.toggle('open');
+});
+
+/* ── CERTIFICATE DOWNLOAD GA4 EVENT ── */
+var btnDownload=$('#btn-download-cert');
+if(btnDownload){
+	btnDownload.addEventListener('click',function(e){
+		e.preventDefault();
+		console.log('GA4 event: certificate_download',{certificate_type:'ISO_27001_2022',certificate_number:'QCC/5290/0326'});
+	});
+}
+
+/* ── HERO CTA: "Ver certificación" ── */
+var heroCta=$('#hero-cta-cert');
+if(heroCta){
+	heroCta.addEventListener('click',function(e){
+		e.preventDefault();
+		activatePilar('pilar-1');
+		$('.tab-shell').scrollIntoView({behavior:'smooth',block:'start'});
+	});
+}
+
+/* ── URL HASH ON LOAD ── */
+(function(){
+	var hash=getHashPilar();
+	if(hash){
+		activatePilar(hash);
+	}else{
+		activatePilar('pilar-1');
+	}
+})();
+
+/* ── HANDLE BROWSER BACK/FORWARD ── */
+window.addEventListener('hashchange',function(){
+	var hash=getHashPilar();
+	if(hash) activatePilar(hash);
+});
+
+})();
+</script>
+
+</body>
+</html>
