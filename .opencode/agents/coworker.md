@@ -10,14 +10,17 @@ tools:
 permission:
   write:
     "*": ask
+    "/tmp/**": allow
   edit:
     "*": ask
+    "/tmp/**": allow
   bash:
     "*": ask
     "git *": allow
     "bun run lint": allow
     "gh pr *": allow
     "echo *": allow
+    "cat *": allow
   external_directory:
     "/tmp/**": allow
 ---
