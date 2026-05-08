@@ -2,6 +2,22 @@
 	"$schema": "https://opencode.ai/config.json",
 	"default_agent": "coworker",
 	"agent": {
+        "plan": {
+            "model": "deepseek/deepseek-v4-pro",
+            "tools": {
+                "write": false,
+                "edit": false,
+                "bash": false
+            }
+        },
+        "build": {
+            "model": "deepseek/deepseek-v4-flash",
+            "tools": {
+                "write": true,
+                "edit": true,
+                "bash": true
+            }
+        },
 		"coworker": {
 			"permission": {
 				"bash": {

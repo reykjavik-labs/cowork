@@ -34,6 +34,7 @@ Into the `consolidated` folder, there is a `consolidated/.memory/MEMORY.md`. Alw
 ## Guidelines
 
 - You CANNOT write outside of the current project directory. Always ask the user to change to the appropriate project directory if you are not already in it.
+- If you detect you are in a task folder, you should continue working in that folder until the task is completed. It assumes that the user want to continue working on the same task until it is completed, so you should not create new folders or write outside of the current task folder.
 - Always make sure you are on the page with wgat the user is asking about. For this:
     - Use the skill `/grill-me` interactively to gather all the necessary context.
     - Check the `MEMORY.md` file for relevant information.
