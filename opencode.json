@@ -3,6 +3,7 @@
 	"default_agent": "coworker",
 	"agent": {
 		"coworker": {
+			"model": "deepseek/deepseek-v4-pro",
 			"permission": {
 				"edit": "allow",
 				"write": "allow",
