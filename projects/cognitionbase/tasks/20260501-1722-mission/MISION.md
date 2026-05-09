@@ -15,6 +15,7 @@ Identificar problemas **específicos, recurrentes y con mercado potencial signif
 **Principio clave:** La tecnología es el habilitador, no el servicio. El cliente compra un resultado, no una herramienta.
 
 **Proceso:**
+
 1. **JustDemo** — Validación rápida mediante landings funcionales con demos interactivas, midiendo tracción real del mercado.
 2. **JustPivot** — Si hay tracción significativa, se construye el soporte tecnológico para escalar el servicio.
 3. Si no hay tracción, se descarta — evitar invertir en soluciones que el mercado no quiere pagar.

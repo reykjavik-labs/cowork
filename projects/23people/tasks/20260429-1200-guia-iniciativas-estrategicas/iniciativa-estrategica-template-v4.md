@@ -15,15 +15,15 @@
 
 ### Objetivo
 
-_Declaración cualitativa e inspiradora de lo que esta iniciativa busca lograr. Debe ser distinto al KR del Objetivo Anual al que contribuye, pero claramente relacionado con él. No lleva números — para eso están los Resultados Clave._
+*Declaración cualitativa e inspiradora de lo que esta iniciativa busca lograr. Debe ser distinto al KR del Objetivo Anual al que contribuye, pero claramente relacionado con él. No lleva números — para eso están los Resultados Clave.*
 
 > [Una oración que describa el estado deseado al finalizar la iniciativa. Ej: "Diversificar la base de clientes para reducir la dependencia crítica de un solo cliente."]
 
 ### Resultados Clave
 
-_¿Cómo mediremos que el Objetivo se logró? Definir entre 2 y 4 resultados concretos, cuantificables y verificables._
+*¿Cómo mediremos que el Objetivo se logró? Definir entre 2 y 4 resultados concretos, cuantificables y verificables.*
 
-_**Criterio de calidad:** Cada RC debe expresar un cambio en la realidad (outcome), no la entrega de un producto ni la ejecución de una actividad (output). Si un RC suena a tarea — "Realizar taller de…", "Entregar documento de…" — debe bajar al nivel de Actividad. Excepción: en iniciativas exploratorias donde el outcome aún no es medible, un output bien definido puede funcionar como RC transitorio; indicarlo explícitamente._
+***Criterio de calidad:** Cada RC debe expresar un cambio en la realidad (outcome), no la entrega de un producto ni la ejecución de una actividad (output). Si un RC suena a tarea — "Realizar taller de…", "Entregar documento de…" — debe bajar al nivel de Actividad. Excepción: en iniciativas exploratorias donde el outcome aún no es medible, un output bien definido puede funcionar como RC transitorio; indicarlo explícitamente.*
 
 | # | Resultado Clave | Línea Base | Meta | Fecha de Medición |
 |---|----------------|-----------|------|-------------------|
@@ -35,7 +35,7 @@ _**Criterio de calidad:** Cada RC debe expresar un cambio en la realidad (outcom
 
 ## 2. Contexto y Justificación
 
-_¿Por qué existe esta iniciativa? Describir el problema, brecha u oportunidad que aborda, y por qué es relevante ahora. Debe conectar directamente con el KR del Objetivo Anual al que contribuye._
+*¿Por qué existe esta iniciativa? Describir el problema, brecha u oportunidad que aborda, y por qué es relevante ahora. Debe conectar directamente con el KR del Objetivo Anual al que contribuye.*
 
 ---
 
@@ -53,9 +53,9 @@ _¿Por qué existe esta iniciativa? Describir el problema, brecha u oportunidad 
 
 ## 4. Plan de Ejecución
 
-_Las Líneas de Acción son agrupaciones lógicas de actividades. Funcionan como etiquetas de organización — no son unidades de gestión independientes. Cada Línea de Acción debe contribuir a al menos un RC. Si un RC no tiene ninguna Línea de Acción apuntando hacia él, es una señal de alerta._
+*Las Líneas de Acción son agrupaciones lógicas de actividades. Funcionan como etiquetas de organización — no son unidades de gestión independientes. Cada Línea de Acción debe contribuir a al menos un RC. Si un RC no tiene ninguna Línea de Acción apuntando hacia él, es una señal de alerta.*
 
-_El estado de las actividades se gestiona en el tablero Kanban, no en este documento._
+*El estado de las actividades se gestiona en el tablero Kanban, no en este documento.*
 
 ### Líneas de Acción definidas
 
@@ -78,7 +78,7 @@ _El estado de las actividades se gestiona en el tablero Kanban, no en este docum
 
 ## 5. Dependencias
 
-_¿Qué debe ocurrir primero, o en paralelo, para que esta iniciativa pueda avanzar?_
+*¿Qué debe ocurrir primero, o en paralelo, para que esta iniciativa pueda avanzar?*
 
 | Dependencia | Tipo | Iniciativa o proyecto relacionado |
 |-------------|------|----------------------------------|
@@ -98,7 +98,7 @@ _¿Qué debe ocurrir primero, o en paralelo, para que esta iniciativa pueda avan
 
 ## 7. Riesgos Principales
 
-_Identificar entre 1 y 3 riesgos relevantes y cómo se mitigan._
+*Identificar entre 1 y 3 riesgos relevantes y cómo se mitigan.*
 
 | Riesgo | Probabilidad | Impacto | Mitigación |
 |--------|-------------|---------|------------|

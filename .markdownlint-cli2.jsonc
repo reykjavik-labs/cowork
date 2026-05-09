@@ -12,9 +12,12 @@
         "MD040": false,
         "MD060": false
     },
+    "globs": [
+        "projects/**/*.md",
+        "README.md"
+    ],
     "ignores": [
-        ".github/CODEOWNERS",
-        "projects/**/tasks/**"
+        ".github/CODEOWNERS"
     ],
     "outputFormatters": [
         [

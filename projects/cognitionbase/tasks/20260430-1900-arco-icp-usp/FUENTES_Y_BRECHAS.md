@@ -1,4 +1,5 @@
 # Fuentes y Brechas Documentales — ICP Perfil A
+
 **ARCO Legal · Retail Financiero / Financieras No Bancarias**
 _Abril 2026 · Uso interno CognitionBase / 23People_
 
@@ -21,6 +22,7 @@ _Abril 2026 · Uso interno CognitionBase / 23People_
 ## Fuentes por campo del ICP
 
 ### Segmento industrial de la empresa
+
 | Afirmación | Fuente(s) |
 |---|---|
 | Retail financiero, casas comerciales y financieras no bancarias como segmento | [F5], [F6], [F7] |
@@ -28,6 +30,7 @@ _Abril 2026 · Uso interno CognitionBase / 23People_
 | Sector regulado por la CMF | [F5], [F6] |
 
 ### Qué caracteriza a la empresa
+
 | Afirmación | Fuente(s) |
 |---|---|
 | Mediana Empresa según SII: ingresos entre 15.000 y 60.000 UTM anuales | [F4] |
@@ -39,12 +42,14 @@ _Abril 2026 · Uso interno CognitionBase / 23People_
 | Actúan a los 34 días de mora en promedio | [F5], [F6] |
 
 ### Cargo del cliente
+
 | Afirmación | Fuente(s) |
 |---|---|
 | Gerente de Riesgo / Compliance o Gerente General como decision-maker | [F7] |
 | Perfil involucrado en compliance, operaciones o tecnología | [F7] |
 
 ### Qué caracteriza al cliente
+
 | Afirmación | Fuente(s) |
 |---|---|
 | Busca prepararse antes del 1 de diciembre de 2026 | [F1], [F2], [F7] |
@@ -53,6 +58,7 @@ _Abril 2026 · Uso interno CognitionBase / 23People_
 | Prefiere enfoque validado antes de automatizar integraciones | [F2], [F7] |
 
 ### Qué hemorragias sufre
+
 | Afirmación | Fuente(s) |
 |---|---|
 | Sin canal formal de recepción ni proceso definido para solicitudes ARCO+ | [F2], [F7] |
@@ -61,6 +67,7 @@ _Abril 2026 · Uso interno CognitionBase / 23People_
 | Riesgo de eliminación de datos en burós por incumplimiento ARCO+ | ⚠️ Ver brechas |
 
 ### Cuáles son sus temores
+
 | Afirmación | Fuente(s) |
 |---|---|
 | Multas de hasta 20.000 UTM (~USD 1,4M) desde el día 1 de vigencia | [F1], [F2] |
@@ -70,6 +77,7 @@ _Abril 2026 · Uso interno CognitionBase / 23People_
 | Perder la palanca de cobranza: deudor exige eliminación del Boletín Comercial | ⚠️ Ver brechas |
 
 ### Cuáles son sus metas
+
 | Afirmación | Fuente(s) |
 |---|---|
 | KPI: 100% solicitudes respondidas dentro del plazo legal de 30 días | [F2], [F7] |
@@ -89,6 +97,7 @@ _Abril 2026 · Uso interno CognitionBase / 23People_
 **Estado actual:** La afirmación es una deducción lógica a partir del derecho de cancelación/supresión que establece la Ley 21.719, combinada con el conocimiento de que las empresas del segmento reportan a burós. Sin embargo, no se ha identificado el artículo específico de la ley que regula la consecuencia del incumplimiento del derecho de cancelación sobre registros en sistemas de crédito o boletines comerciales.
 
 **Fuente pendiente:**
+
 - Identificar y citar el artículo específico de la **Ley 21.719** [F1] que establece las consecuencias del incumplimiento del derecho de cancelación o supresión, en particular si permite al titular exigir eliminación de sus datos de terceros sistemas (como burós o boletines).
 - Alternativamente, confirmar si existe regulación complementaria (CMF u otro ente) que regule el tratamiento de datos en boletines comerciales bajo la nueva ley.
 
@@ -102,5 +111,6 @@ _Abril 2026 · Uso interno CognitionBase / 23People_
 **Estado actual:** Esta afirmación proviene de la investigación de Marcelo Ampuero mencionada al inicio de la sesión, no de un documento formal disponible en el proyecto.
 
 **Fuente pendiente:**
+
 - Identificar y citar al menos un informe, artículo académico o reporte de industria que documente que las empresas que reportan a burós de crédito fueron las primeras en recibir solicitudes ARCO+ a escala tras la implementación del GDPR en Europa (2018).
 - Fuentes sugeridas para buscar: informes de la AEPD (España), CNIL (Francia), o reportes del European Data Protection Board (EDPB) sobre los primeros años de aplicación del GDPR en el sector financiero.

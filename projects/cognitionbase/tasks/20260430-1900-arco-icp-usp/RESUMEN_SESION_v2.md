@@ -1,4 +1,5 @@
 # Resumen de Sesión — ARCO Legal: ICP y USP (con razonamiento)
+
 _30 de abril de 2026 · CognitionBase / 23People_
 
 ---
@@ -6,6 +7,7 @@ _30 de abril de 2026 · CognitionBase / 23People_
 ## Objetivo de la sesión
 
 Madurar la idea de ARCO Legal definiendo dos entregables concretos:
+
 1. **Perfil de Cliente Ideal (ICP)** — Perfil A
 2. **Propuesta Única de Valor (USP)** — Perfil A
 
@@ -18,6 +20,7 @@ Se usó como marco el curso de Prospección Digital B2B (MCI Consultores) y como
 ARCO Legal es una plataforma (SaaS / on-premise) que gestiona el ciclo completo de solicitudes ARCO+ bajo la **Ley 21.719 de Protección de Datos Personales**, vigente desde el **1 de diciembre de 2026**. Las multas van desde 5.000 UTM por incumplimiento puntual hasta 20.000 UTM (~USD 1,4M) o 2–4% de ingresos anuales por incumplimiento sistemático.
 
 Marcelo identificó dos perfiles candidatos a cliente ideal:
+
 - **Perfil A:** Empresas que reportan a burós de crédito (Equifax, TransUnion) — las primeras en verse afectadas según la experiencia de la implementación del GDPR en Europa, dado que sus clientes son masivos y proclives a ejercer derechos ARCO+.
 - **Perfil B:** PyMEs proveedoras de grandes empresas — presionadas indirectamente por sus mandantes, que sí están sujetos a multas y pueden exigir cumplimiento como condición para mantener contratos marco.
 
@@ -85,7 +88,7 @@ Marcelo identificó dos perfiles candidatos a cliente ideal:
 
 **Razonamiento:** Se evaluaron tres versiones del resultado. Las primeras versiones fallaban por dos razones: (a) restaban la ley ("30 días corridos") sin agregar valor propio de ARCO Legal, y (b) tenían un tono acusatorio ("por un error de proceso tuyo") que ponía al cliente a la defensiva. La versión final resuelve ambos problemas: el resultado describe lo que ARCO Legal entrega (visibilidad completa, etapa, responsable, tiempo restante, comprobante) y conecta eso con la consecuencia de negocio más relevante para este segmento específico (la eliminación de un deudor del Boletín Comercial), sin acusar ni prometer lo que la plataforma no controla.
 
-> *"Visibilidad completa de cada solicitud ARCO+ — etapa, responsable y tiempo restante — con comprobante de cumplimiento al cierre, para que tu equipo gestione el riesgo antes de que se convierta en multa o en la eliminación de un deudor de tu Boletín Comercial."*
+> _"Visibilidad completa de cada solicitud ARCO+ — etapa, responsable y tiempo restante — con comprobante de cumplimiento al cierre, para que tu equipo gestione el riesgo antes de que se convierta en multa o en la eliminación de un deudor de tu Boletín Comercial."_
 
 ---
 

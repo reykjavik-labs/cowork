@@ -1,4 +1,5 @@
 # Propuesta Única de Valor (USP) — ARCO Legal
+
 **Perfil A: Retail Financiero / Financieras No Bancarias**
 _Abril 2026 · Uso interno CognitionBase / 23People_
 

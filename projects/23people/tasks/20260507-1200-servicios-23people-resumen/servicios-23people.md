@@ -5,6 +5,7 @@
 ---
 
 ## 1. 🧑‍💻 Tech Talent
+
 Formación, selección y gestión de equipos tecnológicos.
 
 | Modalidad | Descripción |
@@ -14,6 +15,7 @@ Formación, selección y gestión de equipos tecnológicos.
 | **Alta Especialización** | Proyectos cortos (< 6 meses) con el equipo interno de Ingeniería |
 
 **Diferenciadores clave:**
+
 - Rotación voluntaria < 20% anual
 - Permanencia promedio > 1.6 años por proyecto
 - Alineación horaria Chile/LATAM → US
@@ -22,6 +24,7 @@ Formación, selección y gestión de equipos tecnológicos.
 ---
 
 ## 2. 🔗 Integrations
+
 Conexión de sistemas vía APIs, eventos y automatizaciones.
 
 - Integraciones financieras y de scoring
@@ -34,6 +37,7 @@ Conexión de sistemas vía APIs, eventos y automatizaciones.
 ---
 
 ## 3. ☁️ Cloud Optimization
+
 Minimización de costos cloud sin sacrificar rendimiento ni seguridad.
 
 - Migraciones y modernizaciones cloud
@@ -43,6 +47,7 @@ Minimización de costos cloud sin sacrificar rendimiento ni seguridad.
 ---
 
 ## 4. 📊 Data & AI
+
 Ingeniería de datos para decisiones y soluciones basadas en IA.
 
 - Pipelines de datos: CRM, ERP, transaccional → Snowflake, BigQuery, Redshift
