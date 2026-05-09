@@ -9,12 +9,22 @@
 				"write": "allow",
 				"bash": {
 					"*": "ask",
-					"git *": "allow",
+					"git add *": "allow",
+					"git status *": "allow",
+					"git log *": "allow",
+					"git commit *": "allow",
+					"git push *": "allow",
+					"git branch *": "allow",
+					"git checkout *": "allow",
+					"git remote -v *": "allow",
+					"git diff *": "allow",
 					"gh pr list *": "allow",
 					"gh pr create *": "allow",
 					"gh pr edit *": "allow",
 					"bun run lint *": "allow",
-					"mkdir *": "allow"
+					"mkdir *": "ask",
+					"cat *": "allow",
+					"echo *": "allow"
 				}
 			}
 		}
