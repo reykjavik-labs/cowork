@@ -1,0 +1,256 @@
+Hey everyone, I just wanted to quickly
+show you how to set up an LLM Wiki. Um
+you may or may not hear heard. I mean
+it's gone semi-viral, especially in the
+Obsidian world. So, Andre Caparthi
+uh shared this document recently called
+the LLM Wiki.
+And this is just his own kind of
+document and pattern to guide an LLM or
+an AI agent to work with Obsidian and
+work with your vault very well.
+Um I've personally been using this uh
+extensively. It's just like a wonderful
+centralized space for everything in my
+life that is very good to work with
+using AI.
+And so, I'm going to show you how to set
+it up and then how I personally use it
+as well as one of a custom skill that I
+use to uh keep it up to date.
+So, first things first, you're going to
+actually want to go Caparthi added this
+LLM Wiki document. Um
+what I recommend doing is you literally
+just going to alt uh raw
+command A command C, copy it.
+And then go to your command line and
+just say build this.
+And then paste.
+So, I've actually already done that over
+here. It's taking a few minutes. But
+I'll show you what it looks like when
+it's finished. So, now you can see that
+we have this finished and within our
+uh Obsidian. So, this vault now exists,
+right? Our LLM Wiki.
+You're welcome to read through this.
+But personally
+I interact with this purely through
+uh my coding agent.
+So, obviously this is a new vault, so
+there's not really going to be anything
+or history, right?
+So, I'm going to bring you over to my
+own personal vault.
+So, you may or may not wake up in the
+morning and not really sure what you
+worked on yesterday or what how to start
+your day off, right? So, one you might
+say is like, "What should I work on
+today?"
+And your vault is going to then kind of
+explore its log.
+Obviously, we don't have a log cuz this
+is a fresh one, so I just wanted to show
+you the log
+of my own personal, right? So, it's an
+append-only log record of all
+operations. And explicitly says, "Never
+delete entries, right?" Um obviously,
+the LLM does what it wants.
+But you can see here, I've actually been
+logging. This is everything I've even
+done today, right? I'm extensively
+working on an app called I'm Ghost to
+record a video. There's a tons of
+information here.
+I don't actually read this.
+I have my LLM parse and read it.
+And so, it's much quicker than I am. It
+can be parallelized, work in parallel
+across all of my notes, answering
+different questions, you know, "What did
+I do yesterday?"
+And it can answer both of these
+questions at the same time.
+Obviously, this is a weird example
+because I have the log right in front of
+me. Um but at the same time, like I
+don't really want to read all of these.
+I can also It's also very well
+organized. It's an LLM. It's It
+doesn't care, right? So, it's going to I
+I would never write all of this.
+Um but it's telling me about my V1.0
+macOS rejection fixes and re-submissions
+that I just did earlier today in
+extensive detail.
+And so, here we are. I now have
+two particular things, right? So,
+remember, this is what should I work on
+today? This is what did I work on
+yesterday?
+So, I have a very nice little, you know,
+little thing of everything I worked on
+yesterday.
+And here is some things I should
+potentially work on today.
+So, harden the anonymous uploads.
+Verify V2 launch blockers, right? Etc.
+etc. And so, this is a great way to kind
+of like prioritize your day and work
+through things.
+But what's important and what you have
+to remember is
+you need to summarize your work and run
+it against here. So,
+for example, here I just submitted some
+changes. So, I'll run my LLM Wiki skill
+and it'll actually take this entire
+conversation, summarize it, and inject
+it back into my Obsidian vault.
+Um but first it's actually look you can
+even see it. It's literally reading
+uh the log and iterating over my LLM
+Wiki to kind of get a general idea of
+what's different, what occurred.
+Um
+and so it might take a few minutes,
+but by the end of it, you have a very
+extensive updated Wiki or log.
+Um
+So, I understand this might be weird for
+traditional Obsidian users. Um
+you know, I I imagine a lot of people in
+the Obsidian space is are are writers,
+right? Like it's
+this is a beautiful interface to be
+writing in. And so this idea of AI
+writing for you and reading for you,
+it's it's uncomfortable. It's weird.
+And I'm I'm there with you. Like to me
+this is not
+I'm sure you can generate and create
+creativity in this space. I'm just not
+personally there. This for me is purely
+a memory bank. It's purely for logging
+and creating against current status
+updates.
+I don't want to manually log things
+anymore. It's very error-prone, very it
+takes a lot of time.
+It's such a pain in the butt that I end
+up not doing it.
+So, this has become my solution to
+logging my own work and gathering status
+updates that I can then pass along for
+work, for client work, for personal
+projects, um as well as generate
+roadmaps for the future.
+I'm definitely noticing like a
+gain in my
+uh like launch speed, gain in focus,
+roadmapping. Um so, I am going to
+continue using this. I do believe
+there's
+probably better ways of utilizing this
+or more effective ways, right? For
+example, this manual LLM Wiki skill that
+I've built.
+Ideally, I I hook into Pi, right? So,
+every time I'm done with the
+conversation, it runs the LLM Wiki and
+it just runs. So, I'll probably I'll
+probably do that. Actually, now that I'm
+thinking out loud, I am going to do that
+after this.
+And
+uh
+we'll see how that goes.
+Anyways, I feel like I'm rambling. So,
+uh let's see here. You can see here, we
+logged into LLM Wiki, everything that
+occurred, my commits, all that jazz.
+Then I'll just hit a new.
+Or I'll even just like confidently close
+this message now because I know it's all
+in my Wiki.
+So, again, if we look over here,
+let's just reload our app because that
+And now we can see our V1.0 is now in
+review. It even gives like IDs, all that
+good stuff, how we hardened against
+anonymous free tier upload abuse.
+Um
+again, it's extensive.
+It's pretty sweet.
+So,
+one thing I did do here is my LLM Wiki
+skill.
+Um
+and so, like here's an LLM generated
+response of what my LLM Wiki skill is.
+It's just meant for saving meaningful
+conversations to my local Wiki.
+Uh it triggers if I say typical
+keywords, log this, whatever.
+Um and essentially, it
+updates things that I believe are
+important.
+This is completely customizable for you.
+Um
+I recommend generating your own skill.
+What I recommend doing is AI related
+work.
+And when you get to a point where you
+want to log it, talk to your LLM, have
+it log it for you, and then just ask
+your LLM, "Turn this into a skill."
+Right? You hit that prompt, it's going
+to generate a skill that you can reuse
+in the future.
+Um and it's going to care about the
+things that you care about logging.
+Not necessarily things that I care about
+logging, right? I think a lot of the
+things I'm I care about, as you can see
+here, revenue, ideas, projects, clients.
+Like it's very much particular to me and
+my day-to-day life as a like a freelance
+software developer, indie hacker. Um
+for you it could be completely
+different, and that's the beauty of this
+technology is like it's very
+customizable and very personalizable. So
+I do recommend like starting with this
+LLM wiki document, cuz the whole point
+of this is to be very broad, very
+general,
+and just it's a pattern for you to build
+off of. Like remember that. This is a
+pattern for you particularly to work
+with your agent to then build and design
+a document space for yourself. And I I
+can't like
+say that enough. Like this this the
+beauty of this technology is the
+personalization. Like make this yours.
+And then build the patterns around it.
+Just think of this this is a foundation
+to build on top of. Don't copy mine,
+don't copy somebody else's. Like just
+take this pattern, feed it through your
+LLM, have a discussion, and design it
+that way.
+And I think you're going to be
+impressed. I really am.
+I was kind of
+avoiding it at first, but now I'm I'm
+absolutely sold. This is
+definitely the primary way I'm going to
+be using Obsidian and just like a memory
+bank for my own self.
+So anyways, that's it for today's video.
+I hope you learned something, and I'll
+see you in the next one. Bye.

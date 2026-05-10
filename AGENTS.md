@@ -19,7 +19,7 @@ This repo is a documentation hub for 3 company projects under `projects/`. Not a
 
 ## Workflow
 
-- When working on a task, create a new folder inside `tasks/` named `YYYYMMDD-hhmm-[slug]/` in the relevant project.
+- **IMPORTANT: ALWAYS create a task folder BEFORE writing any output file.** Create a new folder inside `tasks/` named `YYYYMMDD-hhmm-[slug]/` in the relevant project.
 - Write all work in the task folder. When the task is complete, the user will move the final output to `consolidated/` and delete the task folder.
 - Task folders are temporary — they are candidates for deletion at any time. The real source of truth is `consolidated/`.
 - The AI assistant must determine which project the current work belongs to and route the task folder creation accordingly.
