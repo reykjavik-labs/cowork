@@ -22,9 +22,10 @@
 					"gh pr create *": "allow",
 					"gh pr edit *": "allow",
 					"bun run lint *": "allow",
-					"mkdir *": "ask",
+					"mkdir *": "allow",
 					"cat *": "allow",
-					"echo *": "allow"
+					"echo *": "allow",
+					"date *": "allow"
 				}
 			}
 		}
